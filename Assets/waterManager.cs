@@ -20,13 +20,15 @@ public class waterManager : MonoBehaviour
     {
          if(other.gameObject.tag == "water")
         {
-            print("Gameover");
+           
+            GameManager.instance.Am.onwater();
             GameManager.instance.gameoverFtn();
             Instantiate(GameManager.instance.fxwater, GameManager.instance.fxwaterpos.transform);
         }
         else if (other.gameObject.tag == "meat")
         {
-            print("meat");
+          
+            GameManager.instance.Am.onPickupSound();
             Destroy(other.gameObject);
             GameManager.instance.staminabar.value += 0.5f;
            

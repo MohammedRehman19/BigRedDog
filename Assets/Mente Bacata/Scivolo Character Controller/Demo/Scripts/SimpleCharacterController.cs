@@ -65,21 +65,23 @@ namespace MenteBacata.ScivoloCharacterControllerDemo
 
             isOnMovingPlatform = false;
 
-            if (isGrounded && Input.GetButtonDown("Jump"))
+            if (isGrounded && Input.GetButtonDown("Jump") && GameManager.instance._isGamestart)
             {
                 verticalSpeed = jumpSpeed;
                 nextUngroundedTime = -1f;
                 isGrounded = false;
                GameManager.instance.characterAni.SetBool("jump", true);
             }
-            if (isGrounded && Input.GetKeyDown(KeyCode.LeftShift) && GameManager.instance.staminabar.value > 0)
+            if (isGrounded && Input.GetKeyDown(KeyCode.LeftShift) && GameManager.instance.staminabar.value > 0 &&(movementInput.x > 0 || movementInput.x < 0 || movementInput.y > 0 || movementInput.y < 0))
             {
-                moveSpeed = 3;
+                moveSpeed = 4;
+                ;
                 GameManager.instance.characterAni.SetFloat("run", 1);
             }
             else if (isGrounded && Input.GetKeyUp(KeyCode.LeftShift) || GameManager.instance.staminabar.value <= 0)
             {
-                moveSpeed = 0.5f;
+                moveSpeed = 2f;
+                
                 GameManager.instance.characterAni.SetFloat("run", -1);
             }
             
@@ -128,10 +130,12 @@ namespace MenteBacata.ScivoloCharacterControllerDemo
                 if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.DownArrow) || Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.RightArrow))
                 {
                     GameManager.instance.characterAni.SetFloat("move", 1);
+                    GameManager.instance.Am.onwalk();
                 }
                 else
                 {
                     GameManager.instance.characterAni.SetFloat("move", -1);
+                    GameManager.instance.Am.onwalkstop();
                 }
             }
             else

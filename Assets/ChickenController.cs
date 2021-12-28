@@ -26,7 +26,9 @@ public class ChickenController : MonoBehaviour
     {
         chickbody = this.GetComponent<Rigidbody>();
         chickAgent = GetComponent<NavMeshAgent>();
+      
         target = patrollingPoint[1];
+       
       
         counter = 1;
      //   chickAgent.destination = agentPoint.position;
@@ -60,9 +62,11 @@ public class ChickenController : MonoBehaviour
             //chickenAnimation.CrossFade("Arm_cock|dead");
         }
         if(Vector3.Distance(transform.position, dog.position) <= 5f && !_isAgentActive) {
-
+            GameManager.instance.Am.onbarkSound();
             _isAgentActive = true;
-            target = agentPoint[0];
+            int randnum = Random.Range(0, patrollingPoint.Count);
+            target = agentPoint[randnum];
+            agentPoint.RemoveAt(randnum);
         }
        
     }
@@ -73,6 +77,9 @@ public class ChickenController : MonoBehaviour
         if(other.tag == "points" && !_isAgentActive)
         {
             waitingTime =1;
+            int randnum = Random.Range(0, patrollingPoint.Count);
+            target = patrollingPoint[randnum];
+            patrollingPoint.RemoveAt(randnum);
             if (counter == 0)
             {
                
@@ -108,13 +115,16 @@ public class ChickenController : MonoBehaviour
             {
                 agentcounter = 0;
             }
-
-            target = agentPoint[agentcounter];
+            int randnum = Random.Range(0, patrollingPoint.Count);
+            target = agentPoint[randnum];
+            agentPoint.RemoveAt(randnum);
+          
         }
 
         else if(other.tag == "dog")
         {
             GameManager.instance._iswinner = true;
+           
             GameManager.instance.gameoverFtn();
             this.GetComponent<BoxCollider>().enabled = false;
             chickenAnimation.CrossFade("Arm_cock|dead");
