@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using NiobiumStudios;
+
 public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
@@ -47,13 +47,17 @@ public class GameManager : MonoBehaviour
     public bool isSpirent = false;
 
 
-    public DailyRewards DR;
+  
     public GameObject rewardtxt;
 
     public bool _isHacked = false;
 
     public float waitingTime = 2;
     public GameObject LoadingScreen;
+
+    public Text lifetimecounter;
+    public int hours, minutes;
+    public float seconds;
     // Start is called before the first frame update
     private void Awake()
     {
@@ -73,13 +77,12 @@ public class GameManager : MonoBehaviour
     //    PlayerPrefs.DeleteAll();
           PlayerPrefs.SetInt("tutorial", 0);
         rewardtxt.gameObject.SetActive(true);
-        if (PlayerPrefs.GetInt("firstplay6", 0) == 0)
+        if (PlayerPrefs.GetInt("firstplay6", 0) == 0 || _isHacked)
         {
           //  PlayerPrefs.DeleteAll();
             PlayerPrefs.SetInt("turn", 5);
-            DR.gameObject.GetComponent<DailyRewardsInterface>().resetreward();
-            rewardtxt.gameObject.SetActive(true);
-            PlayerPrefs.SetInt("firstpla6", 1);
+          
+            PlayerPrefs.SetInt("firstplay6", 1);
         }
         Counter = PlayerPrefs.GetInt("turn", 5);
         
@@ -91,7 +94,29 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(waitingTime > 0 && LoadingScreen.active)
+        if (seconds > 0)
+        {
+            seconds -= Time.deltaTime;
+
+        }
+        else
+        {
+            if (minutes > 0)
+            {
+                minutes -= 1;
+                seconds = 60;
+            }
+            else
+            {
+                if (hours > 0)
+                {
+                    hours -= 1;
+                    minutes = 60;
+                }
+            }
+        }
+        lifetimecounter.text = hours + ":" + minutes + ":" + Mathf.RoundToInt(seconds);
+        if (waitingTime > 0 && LoadingScreen.active)
         {
             waitingTime -= Time.deltaTime;
         }
@@ -158,6 +183,12 @@ public class GameManager : MonoBehaviour
             staminabar.value += Time.deltaTime / 25;
         }
         
+
+       
+       
+
+      
+
     }
 
     public void startGame()
