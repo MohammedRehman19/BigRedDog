@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using NiobiumStudios;
+using System;
 public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
@@ -47,13 +47,19 @@ public class GameManager : MonoBehaviour
     public bool isSpirent = false;
 
 
-    public DailyRewards DR;
+   
     public GameObject rewardtxt;
 
     public bool _isHacked = false;
 
     public float waitingTime = 2;
     public GameObject LoadingScreen;
+
+    public int hours = 8;
+    public float second = 0;
+    public int minutes = 0;
+
+    public Text lifetimecounter;
     // Start is called before the first frame update
     private void Awake()
     {
@@ -70,28 +76,73 @@ public class GameManager : MonoBehaviour
    
     void Start()
     {
-    //    PlayerPrefs.DeleteAll();
+
           PlayerPrefs.SetInt("tutorial", 0);
-        rewardtxt.gameObject.SetActive(true);
-        if (PlayerPrefs.GetInt("firstplay6", 0) == 0)
+      //  rewardtxt.gameObject.SetActive(true);
+        if (PlayerPrefs.GetInt("firstplay7", 0) == 0)
         {
-          //  PlayerPrefs.DeleteAll();
+            PlayerPrefs.DeleteAll();
             PlayerPrefs.SetInt("turn", 5);
-            DR.gameObject.GetComponent<DailyRewardsInterface>().resetreward();
-            rewardtxt.gameObject.SetActive(true);
-            PlayerPrefs.SetInt("firstpla6", 1);
+           // DR.gameObject.GetComponent<DailyRewardsInterface>().resetreward();
+          //  rewardtxt.gameObject.SetActive(true);
+            PlayerPrefs.SetInt("firstplay7", 1);
         }
         Counter = PlayerPrefs.GetInt("turn", 5);
-        
-       
 
+     hours =   PlayerPrefs.GetInt("hours",8);
+     minutes =   PlayerPrefs.GetInt("minutes", 0);
+     second =   PlayerPrefs.GetInt("seconds", 0);
+        
     }
 
+    void calculatetime()
+    {
+       if(second > 0)
+        {
+
+            second -= Time.deltaTime;
+
+
+        }
+        else
+        {
+            if(minutes > 0)
+            {
+                minutes -= 1;
+                second = 60;
+                
+            }
+            else
+            {
+                if(hours > 0)
+                {
+                    hours -= 1;
+                    minutes = 60;
+                 
+
+                }
+                else
+                {
+                    print("reward");
+                    hours = 8;
+                    minutes = 0;
+                    second = 0;
+                }
+            }
+        }
+
+        PlayerPrefs.SetInt("hours",hours);
+        PlayerPrefs.SetInt("minutes", minutes);
+        PlayerPrefs.SetInt("seconds", Mathf.RoundToInt(second));
+        lifetimecounter.text = hours.ToString()+":"+minutes.ToString()+":"+Mathf.RoundToInt(second).ToString();
+
+    }
   
     // Update is called once per frame
     void Update()
     {
-        if(waitingTime > 0 && LoadingScreen.active)
+        calculatetime();
+        if (waitingTime > 0 && LoadingScreen.active)
         {
             waitingTime -= Time.deltaTime;
         }
@@ -157,7 +208,10 @@ public class GameManager : MonoBehaviour
         {
             staminabar.value += Time.deltaTime / 25;
         }
-        
+
+
+
+
     }
 
     public void startGame()
@@ -205,7 +259,7 @@ public class GameManager : MonoBehaviour
             {
 
                 Counter -= 1;
-                print(Counter);
+             //   print(Counter);
                 PlayerPrefs.SetInt("turn", Counter);
             }
             Am.onLoseSound();
