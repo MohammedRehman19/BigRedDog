@@ -200,7 +200,7 @@ namespace NiobiumStudios
             if (isRewardAvailableNow)
             {
                 SnapToReward();
-             //   textTimeDue.text = "You can claim your reward!";
+                textTimeDue.text = dailyRewards.GetTimeDifference().ToString();
             }
             readyToClaim = isRewardAvailableNow;
         }

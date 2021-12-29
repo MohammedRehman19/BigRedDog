@@ -70,25 +70,20 @@ public class GameManager : MonoBehaviour
    
     void Start()
     {
-      //  PlayerPrefs.DeleteAll();
+    //    PlayerPrefs.DeleteAll();
           PlayerPrefs.SetInt("tutorial", 0);
-
-        if (PlayerPrefs.GetInt("firstplay4", 0) == 0)
+        rewardtxt.gameObject.SetActive(true);
+        if (PlayerPrefs.GetInt("firstplay6", 0) == 0)
         {
           //  PlayerPrefs.DeleteAll();
             PlayerPrefs.SetInt("turn", 5);
-            PlayerPrefs.SetInt("firstplay4", 1);
-        }
-        Counter = PlayerPrefs.GetInt("turn", 5);
-        if (Counter < 5)
-        {
             DR.gameObject.GetComponent<DailyRewardsInterface>().resetreward();
             rewardtxt.gameObject.SetActive(true);
+            PlayerPrefs.SetInt("firstpla6", 1);
         }
-        else
-        {
-            rewardtxt.gameObject.SetActive(false);
-        }
+        Counter = PlayerPrefs.GetInt("turn", 5);
+        
+       
 
     }
 

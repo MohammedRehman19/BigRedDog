@@ -103,6 +103,7 @@ namespace NiobiumStudios
                 int days = (int)(Math.Abs(diff.TotalHours) / 24);
                 if (days == 0)
                 {
+                    print("NOOOOOOOO");
                     // No claim for you. Try tomorrow
                     availableReward = 0;
                     return;
@@ -159,7 +160,7 @@ namespace NiobiumStudios
                 if (onClaimPrize != null)
                     onClaimPrize(1);
 
-                Debug.Log(" Reward [" + rewards[availableReward - 1] + "] Claimed!");
+          //      Debug.Log(" Reward [" + rewards[availableReward - 1] + "] Claimed!");
                 PlayerPrefs.SetInt(GetLastRewardKey(), 1);
 
                 // Remove seconds
