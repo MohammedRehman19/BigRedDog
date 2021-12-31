@@ -81,21 +81,28 @@ public class GameManager : MonoBehaviour
     //    PlayerPrefs.DeleteAll();
           PlayerPrefs.SetInt("tutorial", 0);
         rewardtxt.gameObject.SetActive(true);
-        if (PlayerPrefs.GetInt("firstplay6", 0) == 0 || _isHacked)
+        if (PlayerPrefs.GetInt("firstplay10", 0) == 0 || _isHacked)
         {
-          //  PlayerPrefs.DeleteAll();
+            PlayerPrefs.DeleteAll();
             PlayerPrefs.SetInt("turn", 5);
           
-            PlayerPrefs.SetInt("firstplay6", 1);
+            PlayerPrefs.SetInt("firstplay10", 1);
         }
         Counter = PlayerPrefs.GetInt("turn", 5);
 
-      
+        if (PlayerPrefs.GetInt("timecounter", 0) == 1)
+        {
             newLifeTime = PlayerPrefs.GetFloat("lifeTime");
             if (CountAllLives)
             {
                 newLifeTime -= TimeMaster.instance.CheckDate();
             }
+        }
+        else
+        {
+            PlayerPrefs.SetInt("timecounter", 1);
+        }
+
 
         
 
@@ -105,12 +112,13 @@ public class GameManager : MonoBehaviour
         PlayerPrefs.SetInt("PlayerLives", currentLives);
         PlayerPrefs.SetFloat("lifeTime", newLifeTime);
         TimeMaster.instance.SaveDate();
-        print("the count down is :" + newLifeTime);
+     //   print("the count down is :" + newLifeTime);
     }
 
     // Update is called once per frame
     void Update()
     {
+        TimeMaster.instance.SaveDate();
         if (seconds > 0 && minutes >0 && hours >0)
         {
             seconds -= Time.deltaTime;
@@ -121,7 +129,7 @@ public class GameManager : MonoBehaviour
             if (minutes > 0 & hours >0)
             {
                 minutes -= 1;
-                seconds = 60;
+                seconds = 59;
             }
             else
             {
@@ -139,10 +147,12 @@ public class GameManager : MonoBehaviour
                 }
             }
 
-            PlayerPrefs.SetInt("hours",hours);
-            PlayerPrefs.SetInt("minutes", minutes);
-            PlayerPrefs.SetInt("seconds", Mathf.RoundToInt(seconds));
+           
+          
         }
+        PlayerPrefs.SetInt("hours", hours);
+        PlayerPrefs.SetInt("minutes", minutes);
+        PlayerPrefs.SetInt("seconds", Mathf.RoundToInt(seconds));
         lifetimecounter.text = hours + ":" + minutes + ":" + Mathf.RoundToInt(seconds);
         if (waitingTime > 0 && LoadingScreen.active)
         {

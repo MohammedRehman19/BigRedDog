@@ -18,6 +18,7 @@ public class TimeMaster : MonoBehaviour
         instance = this;
 
         saveLocation = "LastSavedDate1";
+      
     }
 
     public float CheckDate()
@@ -31,7 +32,7 @@ public class TimeMaster : MonoBehaviour
         print("oldDate : " + oldDate);
 
         TimeSpan difference = currentDate.Subtract(oldDate);
-        print("difference :" + difference.Hours);
+        print("difference :" + difference);
         int diffhour = PlayerPrefs.GetInt("hours",8) - (difference.Hours);
         int diffmint = PlayerPrefs.GetInt("minutes", 0) - difference.Minutes;
         int diffsec  =  PlayerPrefs.GetInt("seconds", 0) - difference.Hours;
@@ -44,8 +45,9 @@ public class TimeMaster : MonoBehaviour
 
     public void SaveDate()
     {
+        
         PlayerPrefs.SetString(saveLocation, System.DateTime.Now.ToBinary().ToString());
-        print("saving this date to player prefs" + System.DateTime.Now);
+     //   print("saving this date to player prefs" + System.DateTime.Now);
     }
     // Update is called once per frame
     void Update()
