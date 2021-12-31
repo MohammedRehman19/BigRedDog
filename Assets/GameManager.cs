@@ -58,6 +58,10 @@ public class GameManager : MonoBehaviour
     public Text lifetimecounter;
     public int hours, minutes;
     public float seconds;
+    private float newLifeTime;
+    public bool CountAllLives;
+    private int currentLives;
+
     // Start is called before the first frame update
     private void Awake()
     {
@@ -85,23 +89,36 @@ public class GameManager : MonoBehaviour
             PlayerPrefs.SetInt("firstplay6", 1);
         }
         Counter = PlayerPrefs.GetInt("turn", 5);
+
+      
+            newLifeTime = PlayerPrefs.GetFloat("lifeTime");
+            if (CountAllLives)
+            {
+                newLifeTime -= TimeMaster.instance.CheckDate();
+            }
+
         
-       
 
     }
+    void OnApplicationQuit()
+    {
+        PlayerPrefs.SetInt("PlayerLives", currentLives);
+        PlayerPrefs.SetFloat("lifeTime", newLifeTime);
+        TimeMaster.instance.SaveDate();
+        print("the count down is :" + newLifeTime);
+    }
 
-  
     // Update is called once per frame
     void Update()
     {
-        if (seconds > 0)
+        if (seconds > 0 && minutes >0 && hours >0)
         {
             seconds -= Time.deltaTime;
 
         }
         else
         {
-            if (minutes > 0)
+            if (minutes > 0 & hours >0)
             {
                 minutes -= 1;
                 seconds = 60;
@@ -113,7 +130,18 @@ public class GameManager : MonoBehaviour
                     hours -= 1;
                     minutes = 60;
                 }
+                else
+                {
+                    Counter = 5;
+                    hours = 8;
+                    minutes = 0;
+                    seconds = 0;
+                }
             }
+
+            PlayerPrefs.SetInt("hours",hours);
+            PlayerPrefs.SetInt("minutes", minutes);
+            PlayerPrefs.SetInt("seconds", Mathf.RoundToInt(seconds));
         }
         lifetimecounter.text = hours + ":" + minutes + ":" + Mathf.RoundToInt(seconds);
         if (waitingTime > 0 && LoadingScreen.active)
