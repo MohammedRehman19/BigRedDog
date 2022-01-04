@@ -15,11 +15,11 @@ D:/BigRedDog
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56185
+58358
 Successfully changed project path to: D:/BigRedDog
 D:/BigRedDog
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 29.04 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 28.64 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.7f1 (c53830e277f1)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.7f1/Editor/Data/Resources/UnitySubsystems
@@ -35,24 +35,24 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.7f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56928
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56992
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001668 seconds.
+Registered in 0.001725 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 27.36 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 28.92 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.543 seconds
+- Completed reload, in  1.655 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000582 seconds.
+Registered in 0.000581 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
@@ -62,1365 +62,548 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.636 seconds
+- Completed reload, in  0.619 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1174 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 159.4 MB.
-System memory in use after: 159.5 MB.
+System memory in use after: 159.4 MB.
 
 Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1653.
-Total: 1.676700 ms (FindLiveObjects: 0.129400 ms CreateObjectMapping: 0.033700 ms MarkObjects: 1.315500 ms  DeleteObjects: 0.197400 ms)
+Total: 1.548100 ms (FindLiveObjects: 0.114800 ms CreateObjectMapping: 0.031200 ms MarkObjects: 1.208000 ms  DeleteObjects: 0.193500 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 22.png
-  artifactKey: Guid(11b5063e11cde4680a094a9bbca13383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 22.png using Guid(11b5063e11cde4680a094a9bbca13383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bd5e5fcae8bd0a0ce110cd0ccd92c0b') in 0.098764 seconds
-  Import took 0.100557 seconds .
+  path: Assets/[UIFabrica]TrollNest_Free_v01
+  artifactKey: Guid(1e90d57bd8c40a64eb882d59d84f695b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/[UIFabrica]TrollNest_Free_v01 using Guid(1e90d57bd8c40a64eb882d59d84f695b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de4677a36d3a0408dab1ee7a12a48d8a') in 0.005916 seconds
+  Import took 0.007420 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000239 seconds.
-  path: Assets/TechnoGami/2d UI button/AllSection/Section05/BlankButton.png
-  artifactKey: Guid(4d350e589a7cb554ca7301a404d9b847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TechnoGami/2d UI button/AllSection/Section05/BlankButton.png using Guid(4d350e589a7cb554ca7301a404d9b847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d66dacd5aef58a9f49f5d46f8d68da3') in 0.026743 seconds
-  Import took 0.028394 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000181 seconds.
-  path: Assets/JMO Assets/Cartoon FX/Demo/UI Canvas/CFX Demo Btn Ground H.png
-  artifactKey: Guid(5cc9c4a6db9a74a40aaed761fc99294c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX/Demo/UI Canvas/CFX Demo Btn Ground H.png using Guid(5cc9c4a6db9a74a40aaed761fc99294c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0806e9131576fed4a9acf6b9cf2fb7a2') in 0.013708 seconds
-  Import took 0.015413 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/TechnoGami/2d UI button/AllSection/Section03/ExitButton.png
-  artifactKey: Guid(ea3977169a5ee1c468179b62f1e51fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TechnoGami/2d UI button/AllSection/Section03/ExitButton.png using Guid(ea3977169a5ee1c468179b62f1e51fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e527a92e3a8b167cf0ff6c543654488d') in 0.015864 seconds
-  Import took 0.017581 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 27.png
-  artifactKey: Guid(1ba37af43c4904ef19390e750cd57dda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 27.png using Guid(1ba37af43c4904ef19390e750cd57dda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a1ce62261a23b19eb0c7889a28a0f00') in 0.013150 seconds
-  Import took 0.014923 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/TechnoGami/2d UI button/AllSection/Section04/SettingButton.png
-  artifactKey: Guid(54ddf5d5adb0c3f42ab544ed582dc61d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TechnoGami/2d UI button/AllSection/Section04/SettingButton.png using Guid(54ddf5d5adb0c3f42ab544ed582dc61d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37b626b7135dd2402c8d2ef7af8d7d95') in 0.019488 seconds
-  Import took 0.021122 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_options-btn-over.png
-  artifactKey: Guid(0b8a08d27b7e2e9418c9fa14b897fdc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_options-btn-over.png using Guid(0b8a08d27b7e2e9418c9fa14b897fdc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3060f52ba45be2127c2c3a2e04f75b1') in 0.017911 seconds
-  Import took 0.019815 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000238 seconds.
-  path: Assets/Animated 2D Coins/Sprite Sheet/USD_6x4.png
-  artifactKey: Guid(7ead8ba5dc6d79f4da1cc2f449bde712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animated 2D Coins/Sprite Sheet/USD_6x4.png using Guid(7ead8ba5dc6d79f4da1cc2f449bde712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d1a261586db41359b523397118c733a') in 0.064607 seconds
-  Import took 0.066310 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_cancel-over.png
-  artifactKey: Guid(f123cffe48f7aa64c934c6bb71a905a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_cancel-over.png using Guid(f123cffe48f7aa64c934c6bb71a905a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceb1c34a50e01f50135d8ac021063b61') in 0.013381 seconds
-  Import took 0.014934 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000222 seconds.
-  path: Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 51.png
-  artifactKey: Guid(a228e86e21dff472bb174d51ea9a25ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 51.png using Guid(a228e86e21dff472bb174d51ea9a25ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c91fd6016386f3586a52bc26ddbe2e65') in 0.014018 seconds
-  Import took 0.015876 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000245 seconds.
-  path: Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_sword-normal.png
-  artifactKey: Guid(e9d588698d08c4547bafaa8c6141d372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_sword-normal.png using Guid(e9d588698d08c4547bafaa8c6141d372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf071b9eaceafa74c4a1fa28b696966e') in 0.013048 seconds
-  Import took 0.015130 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_cup-over.png
-  artifactKey: Guid(a80c3a17e0843fc4c9b8e28deb206fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_cup-over.png using Guid(a80c3a17e0843fc4c9b8e28deb206fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4c1bd40de4640c6d01405d5e53887af') in 0.013707 seconds
-  Import took 0.015742 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Assets/JMO Assets/Cartoon FX/Demo/UI Canvas/CFX Demo Btn Camera.png
-  artifactKey: Guid(4c72f3c555f96274787f31379fabb6ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX/Demo/UI Canvas/CFX Demo Btn Camera.png using Guid(4c72f3c555f96274787f31379fabb6ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b72d224d5cbc242678c707b983ce403') in 0.011593 seconds
-  Import took 0.013230 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000261 seconds.
-  path: Assets/TechnoGami/2d UI button/AllSection/Section05/SettingButton.png
-  artifactKey: Guid(5128a329f9c763d46a4d2b82fa32bb48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TechnoGami/2d UI button/AllSection/Section05/SettingButton.png using Guid(5128a329f9c763d46a4d2b82fa32bb48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '906850a1b5b4656ba2556eef662d31f4') in 0.020057 seconds
-  Import took 0.021870 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000136 seconds.
-  path: Assets/JMO Assets/Cartoon FX/Demo/UI Canvas/CFX2 Demo Logo.png
-  artifactKey: Guid(5bd23007d5e4e2b48ad7618f94328601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX/Demo/UI Canvas/CFX2 Demo Logo.png using Guid(5bd23007d5e4e2b48ad7618f94328601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e9e18cd8116a6418288506c8a4d5f19') in 0.015869 seconds
-  Import took 0.017539 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_main-btn-over.png
-  artifactKey: Guid(b67842072f237164aac498cf81d511f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_main-btn-over.png using Guid(b67842072f237164aac498cf81d511f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '441da9e139185496728f1708515d5743') in 0.011469 seconds
-  Import took 0.013181 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000159 seconds.
-  path: Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 49.png
-  artifactKey: Guid(c9df77896e4114340969950f5407c7cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 49.png using Guid(c9df77896e4114340969950f5407c7cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ca245f5d8eebc2f290f1113d573882a') in 0.014212 seconds
-  Import took 0.015856 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000184 seconds.
-  path: Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_coin-over.png
-  artifactKey: Guid(e3082189c71190348804e94d6203ae37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_coin-over.png using Guid(e3082189c71190348804e94d6203ae37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b62a509318002fbc56d2b6d9f33ed819') in 0.013382 seconds
-  Import took 0.015105 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/TechnoGami/2d UI button/AllSection/Section04/StartButton.png
-  artifactKey: Guid(b1052106919680b45af6b06cc87db6c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TechnoGami/2d UI button/AllSection/Section04/StartButton.png using Guid(b1052106919680b45af6b06cc87db6c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f2bf60ff8a7a487512436d1d7249c38') in 0.017768 seconds
-  Import took 0.019580 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000214 seconds.
-  path: Assets/TechnoGami/2d UI button/AllSection/Section04/ExitButton.png
-  artifactKey: Guid(eaa1d89c02773e34e90b78a04d12b34e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TechnoGami/2d UI button/AllSection/Section04/ExitButton.png using Guid(eaa1d89c02773e34e90b78a04d12b34e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27575b863a5aff43c179da7230aa23f1') in 0.013848 seconds
-  Import took 0.015627 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000118 seconds.
-  path: Assets/Daco_4205979.png
-  artifactKey: Guid(31a5da55a1f6a0843b42473a23572160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Daco_4205979.png using Guid(31a5da55a1f6a0843b42473a23572160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94e2e95841d46237aeb9a20dfd7bebf5') in 0.010933 seconds
-  Import took 0.012566 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000141 seconds.
-  path: Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_checkbox-empty.png
-  artifactKey: Guid(eed890db0db29b94bbd03bf1dc1f1b83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_checkbox-empty.png using Guid(eed890db0db29b94bbd03bf1dc1f1b83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc1139e942255fadf1b08a57ccfb8b83') in 0.012586 seconds
-  Import took 0.014276 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000117 seconds.
-  path: Assets/TechnoGami/2d UI button/AllSection/Section05/ExitButton.png
-  artifactKey: Guid(e7df6842c709c9448aa576367271665f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TechnoGami/2d UI button/AllSection/Section05/ExitButton.png using Guid(e7df6842c709c9448aa576367271665f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dccf2245367b1bf412b0edf3b89959f') in 0.013652 seconds
-  Import took 0.015691 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000192 seconds.
-  path: Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_potion-normal.png
-  artifactKey: Guid(e412664ccf4bdc44ca856aedb75cdb60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_potion-normal.png using Guid(e412664ccf4bdc44ca856aedb75cdb60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56a95c43789e3d6a07da85ee010f0157') in 0.012318 seconds
-  Import took 0.014057 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000122 seconds.
-  path: Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 18.png
-  artifactKey: Guid(47c23340812b24864af395feca4c3a9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 18.png using Guid(47c23340812b24864af395feca4c3a9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86fcb9fe121ef545aed9039af0c97a3f') in 0.014568 seconds
-  Import took 0.016333 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000186 seconds.
-  path: Assets/stopwatch.png
-  artifactKey: Guid(5dd42a0c6f420034791c77ac6ef527b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/stopwatch.png using Guid(5dd42a0c6f420034791c77ac6ef527b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f68e5dfeb17c6f2899346de84cb92435') in 0.008411 seconds
-  Import took 0.010064 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000121 seconds.
-  path: Assets/TechnoGami/2d UI button/AllSection/Section04/BlankButton.png
-  artifactKey: Guid(0e3bb115b578abc4e911686acf85c554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TechnoGami/2d UI button/AllSection/Section04/BlankButton.png using Guid(0e3bb115b578abc4e911686acf85c554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9160013dc67fb2b6af5e8cf7eddb3fbf') in 0.017995 seconds
-  Import took 0.019624 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000140 seconds.
-  path: Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 53.png
-  artifactKey: Guid(e6d4faad96fb94361b6ae09490fd01f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 53.png using Guid(e6d4faad96fb94361b6ae09490fd01f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ff6e78524f6638ba8888f3982b3724e') in 0.012644 seconds
-  Import took 0.014677 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000245 seconds.
-  path: Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_options-btn-number-normal.png
-  artifactKey: Guid(0c8e23f88da510545b9a5fe7dbdff39e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_options-btn-number-normal.png using Guid(0c8e23f88da510545b9a5fe7dbdff39e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47992310936e765896c9be9bbd8723f4') in 0.015598 seconds
-  Import took 0.017373 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000156 seconds.
-  path: Assets/JMO Assets/Cartoon FX/Demo/UI Canvas/CFXFree Demo Logo.png
-  artifactKey: Guid(c474936d3f7aa204d8939cbe05170aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX/Demo/UI Canvas/CFXFree Demo Logo.png using Guid(c474936d3f7aa204d8939cbe05170aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cc95de557779c7661610730aae73395') in 0.013300 seconds
-  Import took 0.015063 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000188 seconds.
-  path: Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_options-normal.png
-  artifactKey: Guid(df2e1f3d288f06d49971e50e7ff54c2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_options-normal.png using Guid(df2e1f3d288f06d49971e50e7ff54c2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ad16a5258cd835842eec865a1e78a2f') in 0.012435 seconds
-  Import took 0.014244 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000220 seconds.
-  path: Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 30.png
-  artifactKey: Guid(264504b4239034938bc38bf33b3bde94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 30.png using Guid(264504b4239034938bc38bf33b3bde94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '400b0d25f881da0f4a3cceb5e4073c63') in 0.013844 seconds
-  Import took 0.015528 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000173 seconds.
-  path: Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 21.png
-  artifactKey: Guid(b0dfaa4151f07448e8a666cb8109f323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 21.png using Guid(b0dfaa4151f07448e8a666cb8109f323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2863f1d3f38180ae7908533490974bc') in 0.012441 seconds
-  Import took 0.014089 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000185 seconds.
-  path: Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_play-over.png
-  artifactKey: Guid(39be3f6801b282f48a2285342f12b1fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_play-over.png using Guid(39be3f6801b282f48a2285342f12b1fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e801482f03471652c22ed22287d38f11') in 0.008983 seconds
-  Import took 0.011177 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000227 seconds.
-  path: Assets/TechnoGami/2d UI button/AllSection/Section02/BlankButton.png
-  artifactKey: Guid(c79649f5ede2efe479a1e54325226dbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TechnoGami/2d UI button/AllSection/Section02/BlankButton.png using Guid(c79649f5ede2efe479a1e54325226dbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9144eaa00357123806246adcd576c47') in 0.017240 seconds
-  Import took 0.019113 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000179 seconds.
-  path: Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 37.png
-  artifactKey: Guid(81729a213ccce424b8310109ddf1c54f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 37.png using Guid(81729a213ccce424b8310109ddf1c54f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16b005103b52505225aaf3d226d3b013') in 0.013352 seconds
-  Import took 0.015030 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000151 seconds.
-  path: Assets/dog.png
-  artifactKey: Guid(052a9fc70fe43d2428d65e0fd534f27c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/dog.png using Guid(052a9fc70fe43d2428d65e0fd534f27c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '196774b6e933db3b34ae3847a9cc4c38') in 0.008430 seconds
-  Import took 0.010088 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000127 seconds.
-  path: Assets/[UIFabrica]TrollNest_Free_v01/06.DOCS/README.jpg
-  artifactKey: Guid(6cb4f552c4a1e5348a6c6c127788a837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/[UIFabrica]TrollNest_Free_v01/06.DOCS/README.jpg using Guid(6cb4f552c4a1e5348a6c6c127788a837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66c3b2f288b09e2e412c4f0c02b0eb6e') in 0.017222 seconds
-  Import took 0.018806 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000133 seconds.
-  path: Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_mail-normal.png
-  artifactKey: Guid(e2e507e989502cb4c8327f70abe65dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_mail-normal.png using Guid(e2e507e989502cb4c8327f70abe65dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee4df0948ac3966290975ee0638722ae') in 0.012798 seconds
-  Import took 0.014567 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000197 seconds.
-  path: Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_long-btn-normal.png
-  artifactKey: Guid(31493ea8cbe776643ac5bbab6bf0b608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_long-btn-normal.png using Guid(31493ea8cbe776643ac5bbab6bf0b608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4322bb08324261e31a7fc53fdef0751e') in 0.013666 seconds
-  Import took 0.015416 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000180 seconds.
-  path: Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 33.png
-  artifactKey: Guid(cc0b4b8834ee549f49b374ca8c5d7f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 33.png using Guid(cc0b4b8834ee549f49b374ca8c5d7f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a188f55f08b8e81e471d7662322ee65') in 0.013344 seconds
-  Import took 0.014998 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000264 seconds.
-  path: Assets/pause-button.png
-  artifactKey: Guid(b42738a1f9fbda54682bed98784c59f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pause-button.png using Guid(b42738a1f9fbda54682bed98784c59f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58934b625813a8742a530209920ac309') in 0.008394 seconds
-  Import took 0.010100 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000199 seconds.
-  path: Assets/TechnoGami/2d UI button/AllSection/Section04/OptionButton.png
-  artifactKey: Guid(b9896ee07d016a44bbc480d01b5eae93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TechnoGami/2d UI button/AllSection/Section04/OptionButton.png using Guid(b9896ee07d016a44bbc480d01b5eae93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '913f3c01871db9093e344be83bf806e1') in 0.019159 seconds
-  Import took 0.021071 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_small-btn-over.png
-  artifactKey: Guid(674f6de8a21379d4dba58a2f726f658d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_small-btn-over.png using Guid(674f6de8a21379d4dba58a2f726f658d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5db7eedffc0317373ff2ec5e3935248') in 0.017346 seconds
-  Import took 0.019032 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000258 seconds.
-  path: Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_options-btn-normal.png
-  artifactKey: Guid(b4a21daece1cf8742be134725d7b7c99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_options-btn-normal.png using Guid(b4a21daece1cf8742be134725d7b7c99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0fbcc05b4bd5a1865e0c67199e0c89f') in 0.014698 seconds
-  Import took 0.016455 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_mail-over.png
-  artifactKey: Guid(779741f3070ccc745bf17e71b62d6ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_mail-over.png using Guid(779741f3070ccc745bf17e71b62d6ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3d3f843c373d3a99f69d713b7ad1986') in 0.013262 seconds
-  Import took 0.014957 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000220 seconds.
-  path: Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 16.png
-  artifactKey: Guid(bbe9a3f4ac90044af84ac836bcb9b802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 16.png using Guid(bbe9a3f4ac90044af84ac836bcb9b802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d9e17cc057181b18bd526633a3c1b65') in 0.013307 seconds
-  Import took 0.015082 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/JMO Assets/Cartoon FX/Demo/UI Canvas/CFX Demo Btn Camera H.png
-  artifactKey: Guid(90cdb91b8028d984b9adf63a23402f86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX/Demo/UI Canvas/CFX Demo Btn Camera H.png using Guid(90cdb91b8028d984b9adf63a23402f86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d7fb948ccf6c1cd7b9e52004f3fd80d') in 0.011580 seconds
-  Import took 0.013528 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000191 seconds.
-  path: Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 14.png
-  artifactKey: Guid(bd822fe2366ff4c479740a6ea6329a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 14.png using Guid(bd822fe2366ff4c479740a6ea6329a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a4b19757f92e92cb8c7ee018407cb92') in 0.012557 seconds
-  Import took 0.014274 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000243 seconds.
-  path: Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 47.png
-  artifactKey: Guid(9c6f9d49fa3ba4c60b5e69dc9a1a244d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 47.png using Guid(9c6f9d49fa3ba4c60b5e69dc9a1a244d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28ec9347c12ce0e1a2b1dd2dfc3941ec') in 0.013814 seconds
-  Import took 0.015487 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000239 seconds.
-  path: Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_options-over.png
-  artifactKey: Guid(ddfe01a858d18844db9e5702b67efa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_options-over.png using Guid(ddfe01a858d18844db9e5702b67efa1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf1cfde4ebdaaa3f5e86cb47b75a7793') in 0.012736 seconds
-  Import took 0.014398 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000221 seconds.
+  Time since last request: 2.976721 seconds.
   path: Assets/2D Casual UI/Sprite/GUI.png
   artifactKey: Guid(1eaee135ce037439d925cee5e41ce026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Casual UI/Sprite/GUI.png using Guid(1eaee135ce037439d925cee5e41ce026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b7390a2fccd93380c046fb31d2edb0c') in 0.123701 seconds
-  Import took 0.125659 seconds .
+Start importing Assets/2D Casual UI/Sprite/GUI.png using Guid(1eaee135ce037439d925cee5e41ce026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac372839312efac274d668d57fd6d3cc') in 0.197012 seconds
+  Import took 0.198860 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000215 seconds.
-  path: Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 31.png
-  artifactKey: Guid(ba339f00c0b6d4d8d9dd8f5304ea9eea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 31.png using Guid(ba339f00c0b6d4d8d9dd8f5304ea9eea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9489578ab5e221d430ef5c6d32948db') in 0.011955 seconds
-  Import took 0.013666 seconds .
+  Time since last request: 4.225096 seconds.
+  path: Assets/2D Casual UI
+  artifactKey: Guid(eea07922793fb45d98e734985805ce9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Casual UI using Guid(eea07922793fb45d98e734985805ce9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99ca3e3eff863df8cfee47c4903afa45') in 0.004971 seconds
+  Import took 0.006677 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000231 seconds.
-  path: Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_options-btn-number-over.png
-  artifactKey: Guid(66ec05384b5362949869cd1b1e5b015c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_options-btn-number-over.png using Guid(66ec05384b5362949869cd1b1e5b015c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e7507b3f0613c0452a2ba186f634908') in 0.018907 seconds
-  Import took 0.021009 seconds .
+  Time since last request: 3.740970 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_green3d3aba195e4d26ee.terrainlayer
+  artifactKey: Guid(090b366a809509a489f186b8bf9c24a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_green3d3aba195e4d26ee.terrainlayer using Guid(090b366a809509a489f186b8bf9c24a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fb18065e28a611c0cf8020cf5072e27') in 0.013692 seconds
+  Import took 0.015572 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000143 seconds.
-  path: Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_offbtn.png
-  artifactKey: Guid(4292237ca655d1249b7ebbba764a9a91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_offbtn.png using Guid(4292237ca655d1249b7ebbba764a9a91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5ac11048bf92c7b0138fd6d2141d27c') in 0.013261 seconds
-  Import took 0.014987 seconds .
+  Time since last request: 1.159110 seconds.
+  path: Assets/Abandoned buildings
+  artifactKey: Guid(325a1f51c3248834ebe5ac2d592c8387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Abandoned buildings using Guid(325a1f51c3248834ebe5ac2d592c8387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69529d3f269d8532d2e7e113f2de8dbb') in 0.004855 seconds
+  Import took 0.006498 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000165 seconds.
-  path: Assets/JMO Assets/Cartoon FX/Demo/UI Canvas/CFX Demo Btn Arrow.png
-  artifactKey: Guid(6ca93523b0317c242b05932fedb07cb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX/Demo/UI Canvas/CFX Demo Btn Arrow.png using Guid(6ca93523b0317c242b05932fedb07cb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f5155c32362028118278524df9f9aab') in 0.011356 seconds
-  Import took 0.013085 seconds .
+  Time since last request: 0.747226 seconds.
+  path: Assets/Abandoned buildings/Materials
+  artifactKey: Guid(375aa7525af0d4447b6d9d9a6562ebbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Abandoned buildings/Materials using Guid(375aa7525af0d4447b6d9d9a6562ebbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '804cbb4ba2fc6dabdbc733c3409c52d5') in 0.005079 seconds
+  Import took 0.006774 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/Animated 2D Coins/Sprite Sheet/JPY_6x4.png
-  artifactKey: Guid(7a64d093929a4bc45ae1993d93258ee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animated 2D Coins/Sprite Sheet/JPY_6x4.png using Guid(7a64d093929a4bc45ae1993d93258ee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc001fd54dd1629fa546499aa76e9c1a') in 0.056945 seconds
-  Import took 0.058667 seconds .
+  Time since last request: 0.000877 seconds.
+  path: Assets/Abandoned buildings/Materials
+  artifactKey: Guid(375aa7525af0d4447b6d9d9a6562ebbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Abandoned buildings/Materials using Guid(375aa7525af0d4447b6d9d9a6562ebbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '804cbb4ba2fc6dabdbc733c3409c52d5') in 0.001331 seconds
+  Import took 0.002913 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000236 seconds.
-  path: Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_cup-normal.png
-  artifactKey: Guid(abfa4d769cdc5924e9dfe30e2cbb202f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_cup-normal.png using Guid(abfa4d769cdc5924e9dfe30e2cbb202f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b3eaf366c38fb72f22d50d46540e6e7') in 0.011626 seconds
-  Import took 0.013277 seconds .
+  Time since last request: 0.367818 seconds.
+  path: Assets/Abandoned buildings/Meshes
+  artifactKey: Guid(51fda990f5a15cd43a93a68a33632bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Abandoned buildings/Meshes using Guid(51fda990f5a15cd43a93a68a33632bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47b20addf4c0190001b56de83afb8bbc') in 0.004754 seconds
+  Import took 0.006487 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/JMO Assets/Cartoon FX/Demo/UI Canvas/CFX Demo Btn Arrow R.png
-  artifactKey: Guid(3783f195e2c8dc84cb1461fbe881e9cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX/Demo/UI Canvas/CFX Demo Btn Arrow R.png using Guid(3783f195e2c8dc84cb1461fbe881e9cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e498e98e559a1d53d2fb884a6a56f960') in 0.011570 seconds
-  Import took 0.013325 seconds .
+  Time since last request: 0.001044 seconds.
+  path: Assets/Abandoned buildings/Meshes
+  artifactKey: Guid(51fda990f5a15cd43a93a68a33632bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Abandoned buildings/Meshes using Guid(51fda990f5a15cd43a93a68a33632bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47b20addf4c0190001b56de83afb8bbc') in 0.001863 seconds
+  Import took 0.003470 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000238 seconds.
-  path: Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 52.png
-  artifactKey: Guid(e956bfda45a1e407795ec4fbf7efe07b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 52.png using Guid(e956bfda45a1e407795ec4fbf7efe07b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ab9c6b9008147504599c9300d1e15ba') in 0.012669 seconds
-  Import took 0.014360 seconds .
+  Time since last request: 0.220545 seconds.
+  path: Assets/Abandoned buildings/Prefab
+  artifactKey: Guid(898eed1306c30f94aa772261c493c5c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Abandoned buildings/Prefab using Guid(898eed1306c30f94aa772261c493c5c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '887bde092f92ade9492ccd3b9ff968a3') in 0.004711 seconds
+  Import took 0.006409 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000212 seconds.
-  path: Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 17.png
-  artifactKey: Guid(5f8d6c803befb44bc89c118436018629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 17.png using Guid(5f8d6c803befb44bc89c118436018629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcb0cb1bc6be1d84ef3637164db30f6b') in 0.013399 seconds
-  Import took 0.015051 seconds .
+  Time since last request: 0.498054 seconds.
+  path: Assets/Abandoned buildings/Scene
+  artifactKey: Guid(42a50e7e6cefa824fb09df98e2671cba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Abandoned buildings/Scene using Guid(42a50e7e6cefa824fb09df98e2671cba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8475ef7eca0d5bd7f27df936c93f71b') in 0.004924 seconds
+  Import took 0.006679 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 23.png
-  artifactKey: Guid(b47fd4db63bf94c06b15f3f388675144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 23.png using Guid(b47fd4db63bf94c06b15f3f388675144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d689dd6bd746169fc2ae04305712b98') in 0.012554 seconds
-  Import took 0.014566 seconds .
+  Time since last request: 0.029310 seconds.
+  path: Assets/Abandoned buildings/Scene/abandoned_buildings.unity
+  artifactKey: Guid(b088e8a7d764ddc4d990de7bb43b7b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Abandoned buildings/Scene/abandoned_buildings.unity using Guid(b088e8a7d764ddc4d990de7bb43b7b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0cddac07b2734b03340db6953f1581a') in 0.005136 seconds
+  Import took 0.006884 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000241 seconds.
-  path: Assets/[UIFabrica]TrollNest_Free_v01/03.Preview/UIFBRCA_TrollNest_FREE.jpg
-  artifactKey: Guid(c2be65cd40870ab4b92ce0a314c3870a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/[UIFabrica]TrollNest_Free_v01/03.Preview/UIFBRCA_TrollNest_FREE.jpg using Guid(c2be65cd40870ab4b92ce0a314c3870a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '665ce12086f3b1ebbefb415073b58c4c') in 0.018602 seconds
-  Import took 0.020274 seconds .
+  Time since last request: 0.000483 seconds.
+  path: Assets/Abandoned buildings/Scene/abandoned_buildings.unity
+  artifactKey: Guid(b088e8a7d764ddc4d990de7bb43b7b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Abandoned buildings/Scene/abandoned_buildings.unity using Guid(b088e8a7d764ddc4d990de7bb43b7b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0cddac07b2734b03340db6953f1581a') in 0.001973 seconds
+  Import took 0.003523 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000259 seconds.
-  path: Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 42.png
-  artifactKey: Guid(b2e758a1418924497983686386e18670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 42.png using Guid(b2e758a1418924497983686386e18670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28dae094baa6ccfad617db96afb15a42') in 0.013257 seconds
-  Import took 0.015062 seconds .
+  Time since last request: 0.036493 seconds.
+  path: Assets/Abandoned buildings/Scene/abandoned_buildingsSettings.lighting
+  artifactKey: Guid(4fba1c4900f35b44f98dd5b48809bf59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Abandoned buildings/Scene/abandoned_buildingsSettings.lighting using Guid(4fba1c4900f35b44f98dd5b48809bf59) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: 'e68c0135df8904eab24a9e5f6c8356f8') in 0.005625 seconds
+  Import took 0.007291 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000240 seconds.
-  path: Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 39.png
-  artifactKey: Guid(c745f69017b304c8b8730142416138bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 39.png using Guid(c745f69017b304c8b8730142416138bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94164410f23200116cfe883f34670975') in 0.007552 seconds
-  Import took 0.009221 seconds .
+  Time since last request: 0.009183 seconds.
+  path: Assets/Abandoned buildings/Scene/abandoned_buildingsSettings.lighting
+  artifactKey: Guid(4fba1c4900f35b44f98dd5b48809bf59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Abandoned buildings/Scene/abandoned_buildingsSettings.lighting using Guid(4fba1c4900f35b44f98dd5b48809bf59) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: 'e68c0135df8904eab24a9e5f6c8356f8') in 0.001948 seconds
+  Import took 0.003720 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000236 seconds.
-  path: Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 13.png
-  artifactKey: Guid(366ae973f8f1141efac97c6186c6bff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 13.png using Guid(366ae973f8f1141efac97c6186c6bff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0126f34f66142b1e9489773bf7512453') in 0.012656 seconds
-  Import took 0.014320 seconds .
+  Time since last request: 2.988331 seconds.
+  path: Assets/Abandoned buildings/Prefab/abandoned_buildings
+  artifactKey: Guid(5dacbcc3f541e744e9dc0e1e50b8a077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Abandoned buildings/Prefab/abandoned_buildings using Guid(5dacbcc3f541e744e9dc0e1e50b8a077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89a7008cce6d70873884a2b7acc703e7') in 0.006808 seconds
+  Import took 0.009256 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000239 seconds.
-  path: Assets/TechnoGami/2d UI button/AllSection/Section01/StartButton.png
-  artifactKey: Guid(fddf087ead9010447958b0ccad787990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TechnoGami/2d UI button/AllSection/Section01/StartButton.png using Guid(fddf087ead9010447958b0ccad787990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab713f6c350c5e8d4a1b3b6f96562def') in 0.017885 seconds
-  Import took 0.019821 seconds .
+  Time since last request: 0.407916 seconds.
+  path: Assets/Abandoned buildings/Prefab/abandoned_buildings/birdhouse.prefab
+  artifactKey: Guid(6c43e81dbb4ea18428ee68fedb9a544c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Abandoned buildings/Prefab/abandoned_buildings/birdhouse.prefab using Guid(6c43e81dbb4ea18428ee68fedb9a544c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b33349f68630a3ba7603a99598c17e0d') in 0.031937 seconds
+  Import took 0.033648 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000279 seconds.
-  path: Assets/Pixel Play/Sprites/WhiteArrow.png
-  artifactKey: Guid(82febcb779c6cb141a93253c67d9b9aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Play/Sprites/WhiteArrow.png using Guid(82febcb779c6cb141a93253c67d9b9aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '866dcb0fe8cb1b54bf3ac5b84c26b311') in 0.009123 seconds
-  Import took 0.010956 seconds .
+  Time since last request: 0.572903 seconds.
+  path: Assets/Abandoned buildings/Prefab/abandoned_buildings/house_aband.prefab
+  artifactKey: Guid(0c33235d8e4ec124b8f0e17c87b30ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Abandoned buildings/Prefab/abandoned_buildings/house_aband.prefab using Guid(0c33235d8e4ec124b8f0e17c87b30ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97e5c7a9002d0536b3bab857042ec169') in 0.011361 seconds
+  Import took 0.013556 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000205 seconds.
-  path: Assets/TechnoGami/2d UI button/AllSection/Section05/OptionButton.png
-  artifactKey: Guid(a84032be18a996a4fab44eda7d3f9b7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TechnoGami/2d UI button/AllSection/Section05/OptionButton.png using Guid(a84032be18a996a4fab44eda7d3f9b7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1654a17bbc62869ce8eede6495d1a7bd') in 0.019800 seconds
-  Import took 0.021564 seconds .
+  Time since last request: 0.409317 seconds.
+  path: Assets/Abandoned buildings/Prefab/abandoned_buildings/house_enter.prefab
+  artifactKey: Guid(b975c7a470622c540b3e705556ab595e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Abandoned buildings/Prefab/abandoned_buildings/house_enter.prefab using Guid(b975c7a470622c540b3e705556ab595e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e934349e8a8f6db05493e75e8e99b52') in 0.016739 seconds
+  Import took 0.018801 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000266 seconds.
-  path: Assets/JMO Assets/Cartoon FX/Demo/UI Canvas/CFX Demo Btn SlowMo.png
-  artifactKey: Guid(5ec8fc5d939ea2244985ca77a114c9d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX/Demo/UI Canvas/CFX Demo Btn SlowMo.png using Guid(5ec8fc5d939ea2244985ca77a114c9d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '683410e9da1877d3ea43011e2274a381') in 0.011580 seconds
-  Import took 0.013252 seconds .
+  Time since last request: 0.221614 seconds.
+  path: Assets/Abandoned buildings/Prefab/abandoned_buildings/house_roof.prefab
+  artifactKey: Guid(f07c5dd2e7eea7f428902de53a5fe107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Abandoned buildings/Prefab/abandoned_buildings/house_roof.prefab using Guid(f07c5dd2e7eea7f428902de53a5fe107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42a1122f7d0ffc9bddef414cf93e357c') in 0.010283 seconds
+  Import took 0.012652 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000249 seconds.
-  path: Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 48.png
-  artifactKey: Guid(eeea7cc2ad5aa4700bccaf811790a8bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 48.png using Guid(eeea7cc2ad5aa4700bccaf811790a8bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3a4d0473e423788b134b625e9da5c39') in 0.012323 seconds
-  Import took 0.014215 seconds .
+  Time since last request: 0.213201 seconds.
+  path: Assets/Abandoned buildings/Prefab/abandoned_buildings/house_ruined.prefab
+  artifactKey: Guid(b3a53a0efb7c50848b26f6eea91284bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Abandoned buildings/Prefab/abandoned_buildings/house_ruined.prefab using Guid(b3a53a0efb7c50848b26f6eea91284bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de035e3f8163f319566291ef90b0e91f') in 0.009287 seconds
+  Import took 0.011056 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000271 seconds.
-  path: Assets/JMO Assets/Cartoon FX/Demo/UI Canvas/CFX Demo Btn Ground.png
-  artifactKey: Guid(a2bcf923df54ffa4ba7e795955c5dc22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX/Demo/UI Canvas/CFX Demo Btn Ground.png using Guid(a2bcf923df54ffa4ba7e795955c5dc22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9c8d585ab3fc953193658da65c28b6b') in 0.013029 seconds
-  Import took 0.015451 seconds .
+  Time since last request: 0.225773 seconds.
+  path: Assets/Abandoned buildings/Prefab/abandoned_buildings/house_stairs.prefab
+  artifactKey: Guid(92639011d2d4c504e80f68a4f024006f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Abandoned buildings/Prefab/abandoned_buildings/house_stairs.prefab using Guid(92639011d2d4c504e80f68a4f024006f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd27e6cb2da17c7b892e8ed1c7f1f61db') in 0.012090 seconds
+  Import took 0.017214 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000231 seconds.
-  path: Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_castle-normal.png
-  artifactKey: Guid(dd0591d355e19414184fab599d0580b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_castle-normal.png using Guid(dd0591d355e19414184fab599d0580b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71a2769a77e00ef3d9416b333f7f3850') in 0.014845 seconds
-  Import took 0.016552 seconds .
+  Time since last request: 0.000899 seconds.
+  path: Assets/Abandoned buildings/Prefab/abandoned_buildings/house_stairs.prefab
+  artifactKey: Guid(92639011d2d4c504e80f68a4f024006f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Abandoned buildings/Prefab/abandoned_buildings/house_stairs.prefab using Guid(92639011d2d4c504e80f68a4f024006f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd27e6cb2da17c7b892e8ed1c7f1f61db') in 0.005880 seconds
+  Import took 0.007841 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000223 seconds.
-  path: Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_onbtn.png
-  artifactKey: Guid(c2c6971fac7d404458c0d682d0ced17c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_onbtn.png using Guid(c2c6971fac7d404458c0d682d0ced17c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '134743ad3f0e78a12892f47e88304346') in 0.012793 seconds
-  Import took 0.014393 seconds .
+  Time since last request: 0.176666 seconds.
+  path: Assets/Abandoned buildings/Prefab/abandoned_buildings/junk_bridge.prefab
+  artifactKey: Guid(035f738ac7ca0934aae975915ce9478f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Abandoned buildings/Prefab/abandoned_buildings/junk_bridge.prefab using Guid(035f738ac7ca0934aae975915ce9478f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2389d0dd685d5d1feaa137d2ef45518') in 0.010226 seconds
+  Import took 0.012302 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000240 seconds.
-  path: Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 46.png
-  artifactKey: Guid(fc1d707607d8245fea78c6010b642e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 46.png using Guid(fc1d707607d8245fea78c6010b642e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7ee5c71a08095f7fdf20544243e8c37') in 0.012463 seconds
-  Import took 0.014099 seconds .
+  Time since last request: 0.249514 seconds.
+  path: Assets/Abandoned buildings/Prefab/abandoned_buildings/junk_wind_broke.prefab
+  artifactKey: Guid(0632adc36f3af70468bf597efa877832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Abandoned buildings/Prefab/abandoned_buildings/junk_wind_broke.prefab using Guid(0632adc36f3af70468bf597efa877832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f9694250be5709d2922db1ba8387a2c') in 0.010637 seconds
+  Import took 0.012861 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000167 seconds.
-  path: Assets/JMO Assets/Cartoon FX/Demo/UI Canvas/CFX1 Demo Logo.png
-  artifactKey: Guid(f7c98b268308d794b8148d0c2914372d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX/Demo/UI Canvas/CFX1 Demo Logo.png using Guid(f7c98b268308d794b8148d0c2914372d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58992366a3ffcebf42eddf1d2fe6ec3f') in 0.012364 seconds
-  Import took 0.014017 seconds .
+  Time since last request: 0.366689 seconds.
+  path: Assets/Abandoned buildings/Prefab/abandoned_buildings/junk_window.prefab
+  artifactKey: Guid(a22c9e7ef50fc764da43060141ad70cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Abandoned buildings/Prefab/abandoned_buildings/junk_window.prefab using Guid(a22c9e7ef50fc764da43060141ad70cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ffb7baf5295ee7a08c6f5ac0f193801') in 0.010654 seconds
+  Import took 0.013166 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000205 seconds.
-  path: Assets/TechnoGami/2d UI button/AllSection/Section03/SettingButton.png
-  artifactKey: Guid(c9ba45f6365a414438658d33d015d356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TechnoGami/2d UI button/AllSection/Section03/SettingButton.png using Guid(c9ba45f6365a414438658d33d015d356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f10155f16d745f0a1029d3b0187719c') in 0.018029 seconds
-  Import took 0.019875 seconds .
+  Time since last request: 0.373126 seconds.
+  path: Assets/Abandoned buildings/Prefab/abandoned_buildings/pole_wood.prefab
+  artifactKey: Guid(b56ffad1c0421324d82ef52ef263d4db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Abandoned buildings/Prefab/abandoned_buildings/pole_wood.prefab using Guid(b56ffad1c0421324d82ef52ef263d4db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb1ff2f592a7e18858c7d67e2e3acca8') in 0.011643 seconds
+  Import took 0.013921 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.66 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 139.3 MB.
+System memory in use after: 139.4 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1771.
+Total: 1.683800 ms (FindLiveObjects: 0.148500 ms CreateObjectMapping: 0.032100 ms MarkObjects: 1.352000 ms  DeleteObjects: 0.150600 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000207 seconds.
-  path: Assets/TechnoGami/2d UI button/AllSection/Section01/SettingButton.png
-  artifactKey: Guid(9afe8b723df40a948b3df48c0736b804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TechnoGami/2d UI button/AllSection/Section01/SettingButton.png using Guid(9afe8b723df40a948b3df48c0736b804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8903d252fb941cdec90006229351ef3') in 0.017645 seconds
-  Import took 0.019296 seconds .
+  Time since last request: 5.600067 seconds.
+  path: Assets/Animated 2D Coins/Animation
+  artifactKey: Guid(2be6d1befc9f77a42ae4e6c7514383f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animated 2D Coins/Animation using Guid(2be6d1befc9f77a42ae4e6c7514383f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a079c39ce96510e1e9bf824ea535c4b7') in 0.004627 seconds
+  Import took 0.006369 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000149 seconds.
-  path: Assets/tokenicon-removebg-preview.png
-  artifactKey: Guid(7a030403f4d42a4409e5099106693688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/tokenicon-removebg-preview.png using Guid(7a030403f4d42a4409e5099106693688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd90cfd30d117bfaf037eb395548b005') in 0.008522 seconds
-  Import took 0.010141 seconds .
+  Time since last request: 0.000894 seconds.
+  path: Assets/Animated 2D Coins/Animation
+  artifactKey: Guid(2be6d1befc9f77a42ae4e6c7514383f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animated 2D Coins/Animation using Guid(2be6d1befc9f77a42ae4e6c7514383f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a079c39ce96510e1e9bf824ea535c4b7') in 0.001654 seconds
+  Import took 0.003181 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000239 seconds.
-  path: Assets/TechnoGami/2d UI button/AllSection/Section01/ExitButton.png
-  artifactKey: Guid(0ce06714099be154f9ddd1700c6a944a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TechnoGami/2d UI button/AllSection/Section01/ExitButton.png using Guid(0ce06714099be154f9ddd1700c6a944a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91f8c2844093d27e58dc9f3328e3c8be') in 0.014012 seconds
-  Import took 0.015791 seconds .
+  Time since last request: 0.405678 seconds.
+  path: Assets/Animated 2D Coins/Prefab
+  artifactKey: Guid(cb80abe8b85863e4aa7d4244bb20e14f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animated 2D Coins/Prefab using Guid(cb80abe8b85863e4aa7d4244bb20e14f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91af0c9a14682a63aeeec055b332e26e') in 0.001663 seconds
+  Import took 0.003499 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Assets/Animated 2D Coins/Sprite Sheet/UAH_6x4.png
-  artifactKey: Guid(1ef2a1a0ee1bc204891ec7e6ee9e03fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animated 2D Coins/Sprite Sheet/UAH_6x4.png using Guid(1ef2a1a0ee1bc204891ec7e6ee9e03fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '161dc92afc9c132050d6a264929d4caa') in 0.056185 seconds
-  Import took 0.057972 seconds .
+  Time since last request: 6.107077 seconds.
+  path: Assets/ARSH Studios/Assets
+  artifactKey: Guid(9ad337bb8d49c96429e3b21aa73c0fb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARSH Studios/Assets using Guid(9ad337bb8d49c96429e3b21aa73c0fb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '359d1decd2e2d319beb165433c13ab61') in 0.004856 seconds
+  Import took 0.006748 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_radiobtn-press.png
-  artifactKey: Guid(2c21aa7c66a1643418c522104261a65d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_radiobtn-press.png using Guid(2c21aa7c66a1643418c522104261a65d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '318fede13cdc43b77385abe4197cb6d9') in 0.012681 seconds
-  Import took 0.014384 seconds .
+  Time since last request: 0.000661 seconds.
+  path: Assets/ARSH Studios/Assets
+  artifactKey: Guid(9ad337bb8d49c96429e3b21aa73c0fb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARSH Studios/Assets using Guid(9ad337bb8d49c96429e3b21aa73c0fb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '359d1decd2e2d319beb165433c13ab61') in 0.001711 seconds
+  Import took 0.003353 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/TechnoGami/2d UI button/AllSection/Section01/BlankButton.png
-  artifactKey: Guid(8d30fc405704e214498ee00bc05c50ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TechnoGami/2d UI button/AllSection/Section01/BlankButton.png using Guid(8d30fc405704e214498ee00bc05c50ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34ddcce2810883a15343fc59051b8c40') in 0.018972 seconds
-  Import took 0.020839 seconds .
+  Time since last request: 0.254839 seconds.
+  path: Assets/ARSH Studios/Assets/Material
+  artifactKey: Guid(f212158e33c1bb241a940d10dd7dd322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARSH Studios/Assets/Material using Guid(f212158e33c1bb241a940d10dd7dd322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b2ba7f2dd97e01e84bcafc74c2b2d74') in 0.007349 seconds
+  Import took 0.009884 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Assets/JMO Assets/Cartoon FX/Demo/UI Canvas/CFX Demo Btn SlowMo H.png
-  artifactKey: Guid(48624f05b683e4a4ab1a142e40fd6971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX/Demo/UI Canvas/CFX Demo Btn SlowMo H.png using Guid(48624f05b683e4a4ab1a142e40fd6971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7937f0f7136fed8a811fd04da5d501c') in 0.011510 seconds
-  Import took 0.013180 seconds .
+  Time since last request: 0.689466 seconds.
+  path: Assets/ARSH Studios/Assets/Mesh
+  artifactKey: Guid(076196bc4a252104f8ecc8ab7e4849f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARSH Studios/Assets/Mesh using Guid(076196bc4a252104f8ecc8ab7e4849f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9e7a6465757be5da0a399629edbf693') in 0.007689 seconds
+  Import took 0.009999 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000193 seconds.
-  path: Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 28.png
-  artifactKey: Guid(d805bfdd935b34ca282b122c888030d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 28.png using Guid(d805bfdd935b34ca282b122c888030d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b6b6b84937c621afd9e333a23e65007') in 0.013405 seconds
-  Import took 0.015219 seconds .
+  Time since last request: 0.013536 seconds.
+  path: Assets/ARSH Studios/Assets/Prefabs
+  artifactKey: Guid(0d513c3b5a41542479c465f07a32f07e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARSH Studios/Assets/Prefabs using Guid(0d513c3b5a41542479c465f07a32f07e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebd26787f3d5e0e76fd4770242904077') in 0.007814 seconds
+  Import took 0.009867 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000248 seconds.
-  path: Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 20.png
-  artifactKey: Guid(9a7c20816c5ab45cc9d51d2c91e69fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 20.png using Guid(9a7c20816c5ab45cc9d51d2c91e69fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f7210a124d107c035aa5657d0233af2') in 0.013064 seconds
-  Import took 0.014821 seconds .
+  Time since last request: 0.025835 seconds.
+  path: Assets/ARSH Studios/Assets/Prefabs/All_in_one
+  artifactKey: Guid(16881303d3fb82141a439dc5194f4d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARSH Studios/Assets/Prefabs/All_in_one using Guid(16881303d3fb82141a439dc5194f4d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3859b17fc95fd7f942e7c037ebb0a06e') in 0.004794 seconds
+  Import took 0.006662 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Assets/TechnoGami/2d UI button/AllSection/Section03/StartButton.png
-  artifactKey: Guid(dfdc0e6723064cf4e86bdffe50ba1d77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TechnoGami/2d UI button/AllSection/Section03/StartButton.png using Guid(dfdc0e6723064cf4e86bdffe50ba1d77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6432d722216ca39d9231d82dcb2d2896') in 0.019936 seconds
-  Import took 0.021799 seconds .
+  Time since last request: 0.000513 seconds.
+  path: Assets/ARSH Studios/Assets/Prefabs/All_in_one
+  artifactKey: Guid(16881303d3fb82141a439dc5194f4d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARSH Studios/Assets/Prefabs/All_in_one using Guid(16881303d3fb82141a439dc5194f4d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3859b17fc95fd7f942e7c037ebb0a06e') in 0.001533 seconds
+  Import took 0.003628 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000195 seconds.
-  path: Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 34.png
-  artifactKey: Guid(7a84da28438df4023bffb3c96d3ebe5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 34.png using Guid(7a84da28438df4023bffb3c96d3ebe5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fbe7cd9715081e9f38af8021fe57e17') in 0.013052 seconds
-  Import took 0.014742 seconds .
+  Time since last request: 18.918334 seconds.
+  path: Assets/2D Design
+  artifactKey: Guid(61cc7ba739a06a6429e6eb0b6662f090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Design using Guid(61cc7ba739a06a6429e6eb0b6662f090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7babbc70e29a10bd6fa9e784e8ffdfc6') in 0.004948 seconds
+  Import took 0.006716 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000162 seconds.
-  path: Assets/TechnoGami/2d UI button/AllSection/Section03/OptionButton.png
-  artifactKey: Guid(d3e215053b766af42b5b481d1f9f0729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TechnoGami/2d UI button/AllSection/Section03/OptionButton.png using Guid(d3e215053b766af42b5b481d1f9f0729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c697f44c49c29df4e214102d244ff865') in 0.019581 seconds
-  Import took 0.021267 seconds .
+  Time since last request: 2.680635 seconds.
+  path: Assets/Beautiful Progress Bar Free - CYKO/Prefabs
+  artifactKey: Guid(6efbf95f7a6494cce910347e6da4650e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beautiful Progress Bar Free - CYKO/Prefabs using Guid(6efbf95f7a6494cce910347e6da4650e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01fa6eedabff0d487a4ada5858ba34d5') in 0.002035 seconds
+  Import took 0.004346 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000205 seconds.
-  path: Assets/TechnoGami/2d UI button/AllSection/Section02/StartButton.png
-  artifactKey: Guid(beadb47bca02ceb459a5e77b2ab52f37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TechnoGami/2d UI button/AllSection/Section02/StartButton.png using Guid(beadb47bca02ceb459a5e77b2ab52f37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '023e74151d5cde7e5f2347ed633f1bdd') in 0.019212 seconds
-  Import took 0.021136 seconds .
+  Time since last request: 0.587045 seconds.
+  path: Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI
+  artifactKey: Guid(fcbf7a57e575944e8847f9ed5c5a5427) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI using Guid(fcbf7a57e575944e8847f9ed5c5a5427) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afd11b84cf4d9bc002cbdbdb5a359015') in 0.009312 seconds
+  Import took 0.011718 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000212 seconds.
-  path: Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_long-btn-over.png
-  artifactKey: Guid(8c832268c57898f45811ec3bc07e3cf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_long-btn-over.png using Guid(8c832268c57898f45811ec3bc07e3cf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c3056f75581bf292352dc9e765c0a9b') in 0.013730 seconds
-  Import took 0.015337 seconds .
+  Time since last request: 0.000617 seconds.
+  path: Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI
+  artifactKey: Guid(fcbf7a57e575944e8847f9ed5c5a5427) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI using Guid(fcbf7a57e575944e8847f9ed5c5a5427) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afd11b84cf4d9bc002cbdbdb5a359015') in 0.001589 seconds
+  Import took 0.003469 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000212 seconds.
-  path: Assets/TechnoGami/2d UI button/AllSection/Section05/StartButton.png
-  artifactKey: Guid(b5f240c4fe45e9a4eb63aa490a6ed634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TechnoGami/2d UI button/AllSection/Section05/StartButton.png using Guid(b5f240c4fe45e9a4eb63aa490a6ed634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a02518ff0d4ae5bfba6ffdd04d270af') in 0.026718 seconds
-  Import took 0.028583 seconds .
+  Time since last request: 0.199261 seconds.
+  path: Assets/Beautiful Progress Bar Free - CYKO/Scenes
+  artifactKey: Guid(2c8efd9d0f2654d18a296adf90722a7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beautiful Progress Bar Free - CYKO/Scenes using Guid(2c8efd9d0f2654d18a296adf90722a7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '266d709c706b1e34234d2b4b8cba633e') in 0.007052 seconds
+  Import took 0.009674 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_small-btn-normal.png
-  artifactKey: Guid(6d08429117dc53a4bbdec8f5c7613099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_small-btn-normal.png using Guid(6d08429117dc53a4bbdec8f5c7613099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '099811079df99bbde80daf57ee39e2b5') in 0.014815 seconds
-  Import took 0.016785 seconds .
+  Time since last request: 0.327169 seconds.
+  path: Assets/Beautiful Progress Bar Free - CYKO/Scripts
+  artifactKey: Guid(4ef5e874d03c74a52abc0f795af774da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beautiful Progress Bar Free - CYKO/Scripts using Guid(4ef5e874d03c74a52abc0f795af774da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f10abdb441d927f092d62332f41596f8') in 0.005170 seconds
+  Import took 0.006855 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000130 seconds.
-  path: Assets/2D Casual UI/Original Artwork/GUI.psd
-  artifactKey: Guid(836eca08b5e3b4550a4538c2238266fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Casual UI/Original Artwork/GUI.psd using Guid(836eca08b5e3b4550a4538c2238266fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73a67c1ecf0d7d3e2fcd1e0673dcdbc7') in 0.051485 seconds
-  Import took 0.053393 seconds .
+  Time since last request: 0.753258 seconds.
+  path: Assets/Beautiful Progress Bar Free - CYKO/Scripts/SliderScripts.cs
+  artifactKey: Guid(dac734811a58840af97ce1956feefdec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beautiful Progress Bar Free - CYKO/Scripts/SliderScripts.cs using Guid(dac734811a58840af97ce1956feefdec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e59b82580d515441565043187c328ed7') in 0.014515 seconds
+  Import took 0.016515 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000205 seconds.
-  path: Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 29.png
-  artifactKey: Guid(07221909247fa4eb09dcc45e6316a8ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 29.png using Guid(07221909247fa4eb09dcc45e6316a8ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f34a8700f98f0232b55bdda7c1a9618d') in 0.011732 seconds
-  Import took 0.013328 seconds .
+  Time since last request: 2.350306 seconds.
+  path: Assets/Beautiful Progress Bar Free - CYKO/Prefabs/Slider (2).prefab
+  artifactKey: Guid(768873d858e68487b84d01b85b954a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beautiful Progress Bar Free - CYKO/Prefabs/Slider (2).prefab using Guid(768873d858e68487b84d01b85b954a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '031a87f9b2247a70e7abe4dab792cbbc') in 0.028612 seconds
+  Import took 0.030496 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000216 seconds.
-  path: Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 15.png
-  artifactKey: Guid(c1d124fb86fcc4ab68a16d67cf980633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 15.png using Guid(c1d124fb86fcc4ab68a16d67cf980633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ec1b9a071891d1c31495f8bf3e57dc5') in 0.012926 seconds
-  Import took 0.014801 seconds .
+  Time since last request: 0.239130 seconds.
+  path: Assets/Beautiful Progress Bar Free - CYKO/Prefabs/Slider (3).prefab
+  artifactKey: Guid(d59af3ac28fcf4659a909211f7356283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beautiful Progress Bar Free - CYKO/Prefabs/Slider (3).prefab using Guid(d59af3ac28fcf4659a909211f7356283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec84478abb6c8916fa585af0062d8f7c') in 0.005483 seconds
+  Import took 0.007338 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000236 seconds.
-  path: Assets/running.png
-  artifactKey: Guid(1ce352882d2e66041953a72c20f98d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/running.png using Guid(1ce352882d2e66041953a72c20f98d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa647091e4b93e2f98be4a91d3a98619') in 0.009154 seconds
-  Import took 0.010946 seconds .
+  Time since last request: 3.986049 seconds.
+  path: Assets/impact
+  artifactKey: Guid(8660452f618e66840897d8cff058bc6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/impact using Guid(8660452f618e66840897d8cff058bc6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c94f8241b23255143fa5f5eae4c52c55') in 0.005046 seconds
+  Import took 0.006916 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000349 seconds.
-  path: Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_cancel-normal.png
-  artifactKey: Guid(6c3e0432b93e9ae478671adf1bea90da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_cancel-normal.png using Guid(6c3e0432b93e9ae478671adf1bea90da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78dbe088c7f0c5d94a461a40866dfdfb') in 0.013795 seconds
-  Import took 0.015647 seconds .
+  Time since last request: 0.001137 seconds.
+  path: Assets/impact
+  artifactKey: Guid(8660452f618e66840897d8cff058bc6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/impact using Guid(8660452f618e66840897d8cff058bc6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c94f8241b23255143fa5f5eae4c52c55') in 0.001843 seconds
+  Import took 0.003619 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000238 seconds.
-  path: Assets/Animated 2D Coins/Sprite Sheet/EUR_6x4.png
-  artifactKey: Guid(568bc9ecebe5bd946a601aea36334ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animated 2D Coins/Sprite Sheet/EUR_6x4.png using Guid(568bc9ecebe5bd946a601aea36334ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b29c0bdcd773fd1d016ae7ff20124d23') in 0.053305 seconds
-  Import took 0.055104 seconds .
+  Time since last request: 2.945390 seconds.
+  path: Assets/Low_Poly_Mini_Village
+  artifactKey: Guid(e1c92e29f5a92c6429824aac83f87d30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low_Poly_Mini_Village using Guid(e1c92e29f5a92c6429824aac83f87d30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b11676ef380bb822f5ae003ab25e44d2') in 0.005202 seconds
+  Import took 0.006976 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000216 seconds.
-  path: Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 40.png
-  artifactKey: Guid(1908c45859d4044cc95a4a8dee62d532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 40.png using Guid(1908c45859d4044cc95a4a8dee62d532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '583cc5289623c5eccfc8c1abef797fbb') in 0.012389 seconds
-  Import took 0.014034 seconds .
+  Time since last request: 0.000973 seconds.
+  path: Assets/Low_Poly_Mini_Village
+  artifactKey: Guid(e1c92e29f5a92c6429824aac83f87d30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low_Poly_Mini_Village using Guid(e1c92e29f5a92c6429824aac83f87d30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b11676ef380bb822f5ae003ab25e44d2') in 0.001624 seconds
+  Import took 0.003300 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000253 seconds.
-  path: Assets/TechnoGami/2d UI button/AllSection/Section02/ExitButton.png
-  artifactKey: Guid(c688a1e6e813c8141b8b074ffd6462d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TechnoGami/2d UI button/AllSection/Section02/ExitButton.png using Guid(c688a1e6e813c8141b8b074ffd6462d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8f1b2b5a770141adcb957abc97302cc') in 0.014437 seconds
-  Import took 0.016327 seconds .
+  Time since last request: 0.789140 seconds.
+  path: Assets/LowPolyFarmLite
+  artifactKey: Guid(c8fe8476a8451d943a09671837fa39fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFarmLite using Guid(c8fe8476a8451d943a09671837fa39fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85702fdf31a339c1d93d8d06dccaef0e') in 0.007731 seconds
+  Import took 0.010057 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000205 seconds.
-  path: Assets/JMO Assets/Cartoon FX/Demo/UI Canvas/CFX3 Demo Logo.png
-  artifactKey: Guid(18a39eb748b6d664eb57f4b97b68bef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX/Demo/UI Canvas/CFX3 Demo Logo.png using Guid(18a39eb748b6d664eb57f4b97b68bef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e45fa354ab7e88acd14fe4ec82f254a6') in 0.011698 seconds
-  Import took 0.013386 seconds .
+  Time since last request: 20.279769 seconds.
+  path: Assets/SimpleLowPolyNature/Scenes/DemoDay.unity
+  artifactKey: Guid(304a5748b784bc241be3c08d67013b21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleLowPolyNature/Scenes/DemoDay.unity using Guid(304a5748b784bc241be3c08d67013b21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41f50843d5a8561446f46de0d29c3a35') in 0.004918 seconds
+  Import took 0.006779 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000264 seconds.
-  path: Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_check-over.png
-  artifactKey: Guid(56dfb83e768393d4caf2fb24cd36bf51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_check-over.png using Guid(56dfb83e768393d4caf2fb24cd36bf51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '490f0c24fda07948bd9c2d7ee8ed4c89') in 0.013487 seconds
-  Import took 0.015305 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000249 seconds.
-  path: Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 12.png
-  artifactKey: Guid(269491d773faa4b78aa9c1d4c6a1a897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 12.png using Guid(269491d773faa4b78aa9c1d4c6a1a897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11c932b735b92a87c0b9ae5dc82cd7e4') in 0.023738 seconds
-  Import took 0.026107 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 36.png
-  artifactKey: Guid(4567951899c584cf3ab8802d30151419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 36.png using Guid(4567951899c584cf3ab8802d30151419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05059e7400d3d81695127fe9c718ef12') in 0.006900 seconds
-  Import took 0.008592 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000213 seconds.
-  path: Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 44.png
-  artifactKey: Guid(80a171cbfd68547d5a2e2883e8e4298a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 44.png using Guid(80a171cbfd68547d5a2e2883e8e4298a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe4b7cd08a4f7b03618ef8dc36af614f') in 0.013219 seconds
-  Import took 0.014900 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000205 seconds.
-  path: Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 19.png
-  artifactKey: Guid(621bab10a94aa402db2ed03ef602338e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 19.png using Guid(621bab10a94aa402db2ed03ef602338e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec89d203b347f22843a163efc5ad0e61') in 0.012779 seconds
-  Import took 0.014492 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000247 seconds.
-  path: Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_check-normal.png
-  artifactKey: Guid(9aaaf14806359914489f3cff61b07c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_check-normal.png using Guid(9aaaf14806359914489f3cff61b07c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54927d96ff552739ebb1548aeb2c8aea') in 0.013118 seconds
-  Import took 0.014886 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/TechnoGami/2d UI button/AllSection/Section03/BlankButton.png
-  artifactKey: Guid(351b4cbab5939a44aac01a42754e41a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TechnoGami/2d UI button/AllSection/Section03/BlankButton.png using Guid(351b4cbab5939a44aac01a42754e41a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aa9f47826a070dde882ca4f237b3ca2') in 0.017669 seconds
-  Import took 0.019380 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000265 seconds.
-  path: Assets/TechnoGami/2d UI button/AllSection/Section01/OptionButton.png
-  artifactKey: Guid(298f54eda3bf2d945998546d60a1095c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TechnoGami/2d UI button/AllSection/Section01/OptionButton.png using Guid(298f54eda3bf2d945998546d60a1095c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a4e6e613f9ffb62b35d6bfb2c92cf4c') in 0.018699 seconds
-  Import took 0.020468 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000152 seconds.
-  path: Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 24.png
-  artifactKey: Guid(10725fadd69e24802bd736ccc64a1f27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 24.png using Guid(10725fadd69e24802bd736ccc64a1f27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99d43a5731544e1b43272dc012b5343f') in 0.012952 seconds
-  Import took 0.014600 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000246 seconds.
-  path: Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 41.png
-  artifactKey: Guid(54166cd4ebe844d89a6fbe1048dde221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 41.png using Guid(54166cd4ebe844d89a6fbe1048dde221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '623d5112f7444b56935c86721629be79') in 0.013161 seconds
-  Import took 0.015089 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000201 seconds.
-  path: Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_sword-over.png
-  artifactKey: Guid(10b32c969410d954d8e1ecd8ae4d985b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_sword-over.png using Guid(10b32c969410d954d8e1ecd8ae4d985b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04f4da6cb4e3d4960aca023630ba09a3') in 0.013388 seconds
-  Import took 0.015219 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000241 seconds.
-  path: Assets/TechnoGami/2d UI button/AllSection/Section02/OptionButton.png
-  artifactKey: Guid(f10429c38dca33542a6c7f0719facfa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TechnoGami/2d UI button/AllSection/Section02/OptionButton.png using Guid(f10429c38dca33542a6c7f0719facfa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55c6741797c875567e5afd6548b044f5') in 0.017985 seconds
-  Import took 0.019682 seconds .
+  Time since last request: 17.041754 seconds.
+  path: Assets/JMO Assets/Cartoon FX/CFX3 Prefabs/Misc/CFX3_Hit_Misc_D.prefab
+  artifactKey: Guid(979632a27455af442bd2d8f36eb0ffce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX/CFX3 Prefabs/Misc/CFX3_Hit_Misc_D.prefab using Guid(979632a27455af442bd2d8f36eb0ffce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4550e6cdd9ad292242d452d2082b3da') in 0.011783 seconds
+  Import took 0.013567 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000199 seconds.
-  path: Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_play-normal.png
-  artifactKey: Guid(38caf1e648012e349b3aa0de15044fa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_play-normal.png using Guid(38caf1e648012e349b3aa0de15044fa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b9d2bc28a449bb178362caacd5a42b0') in 0.012235 seconds
-  Import took 0.013927 seconds .
+  path: Assets/Mente Bacata/Scivolo Character Controller/Scripts/ScivoloCharacterController.asmdef
+  artifactKey: Guid(ae9be5ad8f4fea54cb89b3e70d3d8d62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mente Bacata/Scivolo Character Controller/Scripts/ScivoloCharacterController.asmdef using Guid(ae9be5ad8f4fea54cb89b3e70d3d8d62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d63eb9bcf9b9b38af71f393630943bd') in 0.005258 seconds
+  Import took 0.006743 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000293 seconds.
-  path: Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_potion-over.png
-  artifactKey: Guid(1a7203e93c4f97b47808e62dd3fca147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_potion-over.png using Guid(1a7203e93c4f97b47808e62dd3fca147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b94f4bf8c4412ae1eace7e599f562a51') in 0.013235 seconds
-  Import took 0.015073 seconds .
+  Time since last request: 3.778428 seconds.
+  path: Assets/Pixel Play/_Scenes
+  artifactKey: Guid(f417fd1f0a487a94ea1e9ce0c3c2d2bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Play/_Scenes using Guid(f417fd1f0a487a94ea1e9ce0c3c2d2bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c121b651dea8345e247bff0cef00036') in 0.005093 seconds
+  Import took 0.007007 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000243 seconds.
-  path: Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_radiobtn-empty.png
-  artifactKey: Guid(43fb8b0cf376ce64fad8c82d4da99977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_radiobtn-empty.png using Guid(43fb8b0cf376ce64fad8c82d4da99977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4138e8f0b47f339745241d405941c8b6') in 0.011824 seconds
-  Import took 0.013821 seconds .
+  Time since last request: 4.152855 seconds.
+  path: Assets/LowPolyFarmLite/Scenes
+  artifactKey: Guid(a8ca82e7a3f46d04db5b1c44ce6e5562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyFarmLite/Scenes using Guid(a8ca82e7a3f46d04db5b1c44ce6e5562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81115db3349c1de7ee980e9cc126ffab') in 0.001532 seconds
+  Import took 0.003310 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 35.png
-  artifactKey: Guid(991591899a349418aa5296494a8ff3fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 35.png using Guid(991591899a349418aa5296494a8ff3fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d9d7787b0b333cd23e22aca6104b3ab') in 0.012708 seconds
-  Import took 0.014545 seconds .
+  Time since last request: 4.132896 seconds.
+  path: Assets/Supercyan Free Forest Sample/Scenes
+  artifactKey: Guid(3a5136e13fd179f49ad55a85daa0a6fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Free Forest Sample/Scenes using Guid(3a5136e13fd179f49ad55a85daa0a6fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4bfcc497de189b4fefbef5f9bc82642') in 0.004320 seconds
+  Import took 0.005955 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000258 seconds.
-  path: Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 32.png
-  artifactKey: Guid(ed36bd247342749da865b1fab6cd2650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 32.png using Guid(ed36bd247342749da865b1fab6cd2650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52fa31f866753ec8df90f0e519ab59b3') in 0.012693 seconds
-  Import took 0.014614 seconds .
+  Time since last request: 27.769780 seconds.
+  path: Assets/mixkit-sounds-of-the-river-and-birds-2453.wav
+  artifactKey: Guid(4267016c17df8684aafe930b2bc0b666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mixkit-sounds-of-the-river-and-birds-2453.wav using Guid(4267016c17df8684aafe930b2bc0b666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0ea0332f1718fb22b358bd796cb6833') in 0.056982 seconds
+  Import took 0.058780 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000251 seconds.
-  path: Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 26.png
-  artifactKey: Guid(9ccc3770b652045d28b4e270fe7f1063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 26.png using Guid(9ccc3770b652045d28b4e270fe7f1063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15e7222b7e0a2df245aabe3ff16bdd51') in 0.013081 seconds
-  Import took 0.014881 seconds .
+  Time since last request: 5.572072 seconds.
+  path: Assets/Audio
+  artifactKey: Guid(494a0b5c1f9c1d44481d0ee32f64e2ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio using Guid(494a0b5c1f9c1d44481d0ee32f64e2ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34927804756fb0d8052fb54b8ff9b316') in 0.006786 seconds
+  Import took 0.008687 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000163 seconds.
-  path: Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_square-btn-over.png
-  artifactKey: Guid(198bb96faa505eb458d7bb77cd2f355c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_square-btn-over.png using Guid(198bb96faa505eb458d7bb77cd2f355c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a2c1233905d3abd0b37f6d978f996af') in 0.015631 seconds
-  Import took 0.017499 seconds .
+  Time since last request: 456.243724 seconds.
+  path: Assets/incorrect sound effect.mp3
+  artifactKey: Guid(b9ed984f3b78e354db31efbd19373301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/incorrect sound effect.mp3 using Guid(b9ed984f3b78e354db31efbd19373301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f177f8b73584480ac369ecec2460651c') in 0.011157 seconds
+  Import took 0.012909 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/Animated 2D Coins/Sprite Sheet/GBP_6x4.png
-  artifactKey: Guid(fd4d6fe9efaae5e4eaf33aa14b7adcc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animated 2D Coins/Sprite Sheet/GBP_6x4.png using Guid(fd4d6fe9efaae5e4eaf33aa14b7adcc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a3280c34e1013034da1d1ac76d4765a') in 0.052357 seconds
-  Import took 0.054248 seconds .
+  Time since last request: 77.623899 seconds.
+  path: Assets/stopwatch.png
+  artifactKey: Guid(5dd42a0c6f420034791c77ac6ef527b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stopwatch.png using Guid(5dd42a0c6f420034791c77ac6ef527b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fba6536a3c39eedee45a6ec1ba3ac07') in 0.013938 seconds
+  Import took 0.015826 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 45.png
-  artifactKey: Guid(8f4461725bff34943aff06332c177415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 45.png using Guid(8f4461725bff34943aff06332c177415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01022de3f69ca431c8a0d3517927f5cb') in 0.013877 seconds
-  Import took 0.015593 seconds .
+  Time since last request: 6.391866 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(96aff65a1fb84524386577d3831a227b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(96aff65a1fb84524386577d3831a227b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc25ad414b2370a28a1b24f84a3caa3d') in 0.003141 seconds
+  Import took 0.004940 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 50.png
-  artifactKey: Guid(2cf8a98f9c05b47df8819a7cb9acf209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 50.png using Guid(2cf8a98f9c05b47df8819a7cb9acf209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c253ffca2540ee1ef9388c81417e3e6') in 0.013257 seconds
-  Import took 0.015236 seconds .
+  Time since last request: 3.946945 seconds.
+  path: Assets/waterManager.cs
+  artifactKey: Guid(43133a3dd75cc5147af4a1d525e84e2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/waterManager.cs using Guid(43133a3dd75cc5147af4a1d525e84e2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5f384117d7880958cd2e5c163f06fe7') in 0.004646 seconds
+  Import took 0.006647 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000246 seconds.
-  path: Assets/Pixel Play/Sprites/WhiteBox.png
-  artifactKey: Guid(c511f893cf83d4b47910f09c80807805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Play/Sprites/WhiteBox.png using Guid(c511f893cf83d4b47910f09c80807805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '884f242672168e7b6fe6ad32b06564d2') in 0.007590 seconds
-  Import took 0.009416 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000221 seconds.
-  path: Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_castle-over.png
-  artifactKey: Guid(300dc50a65fe6ed429c09b83f6834fc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_castle-over.png using Guid(300dc50a65fe6ed429c09b83f6834fc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae6ad09947fa0b594ae46ecfd0d53c24') in 0.009368 seconds
-  Import took 0.011095 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/coollogo_com-4148284.png
-  artifactKey: Guid(94dc224aac85aea4c95a31bd5e21a2df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/coollogo_com-4148284.png using Guid(94dc224aac85aea4c95a31bd5e21a2df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56007802d862a65d38ca99cc4f5ef0c1') in 0.008722 seconds
-  Import took 0.010457 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000237 seconds.
-  path: Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 43.png
-  artifactKey: Guid(2fa92686878964789b9db224a1d07ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 43.png using Guid(2fa92686878964789b9db224a1d07ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6afd32342224c2f6e7e6a59731fd8bf1') in 0.013428 seconds
-  Import took 0.015203 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_main-btn-normal.png
-  artifactKey: Guid(c6a0ff9ab2cb93840a2f1a557bcec250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_main-btn-normal.png using Guid(c6a0ff9ab2cb93840a2f1a557bcec250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc7b0a04a277bfaeb29d121c7cb10079') in 0.016381 seconds
-  Import took 0.018133 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000203 seconds.
-  path: Assets/TechnoGami/2d UI button/AllSection/Section02/SettingButton.png
-  artifactKey: Guid(16a9035e313cb3a4e8d75f6efb2c031d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TechnoGami/2d UI button/AllSection/Section02/SettingButton.png using Guid(16a9035e313cb3a4e8d75f6efb2c031d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edc57aec11828e30ce6bac5852291540') in 0.017858 seconds
-  Import took 0.019597 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000227 seconds.
-  path: Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 25.png
-  artifactKey: Guid(4eb181a1475ba4975a040865b40948c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Beautiful Progress Bar Free - CYKO/PROGRESS UI/bgArtboard 25.png using Guid(4eb181a1475ba4975a040865b40948c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea2d60a71cec2a0e3fe6edd620b93f4a') in 0.012486 seconds
-  Import took 0.014228 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000235 seconds.
-  path: Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_coin-normal.png
-  artifactKey: Guid(76c9765e15d459f4eab851cdde7c8bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_coin-normal.png using Guid(76c9765e15d459f4eab851cdde7c8bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f0cb14f7b8bc9da4b2d3f934619dbe1') in 0.012168 seconds
-  Import took 0.014057 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000245 seconds.
-  path: Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_checkbox-press.png
-  artifactKey: Guid(a0947f3d500fe0d4d821539da42fee46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_checkbox-press.png using Guid(a0947f3d500fe0d4d821539da42fee46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fdf54f6a163bfc076deb7e81be9a816') in 0.011046 seconds
-  Import took 0.012899 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000239 seconds.
-  path: Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_square-btn-normal.png
-  artifactKey: Guid(d9272968eef00924d9ca512ec3795150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/[UIFabrica]TrollNest_Free_v01/02.PNG/trollnest_square-btn-normal.png using Guid(d9272968eef00924d9ca512ec3795150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f0ef45ec7f6a1c53d6f8a380fffbf53') in 0.015273 seconds
-  Import took 0.017153 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/JMO Assets/Cartoon FX/Demo/UI Canvas/CFX4 Demo Logo.png
-  artifactKey: Guid(db8ec42c9f48282458fe93cfc5f48a18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/JMO Assets/Cartoon FX/Demo/UI Canvas/CFX4 Demo Logo.png using Guid(db8ec42c9f48282458fe93cfc5f48a18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb22708d21b9a11a453cf12437d17a42') in 0.012511 seconds
-  Import took 0.014364 seconds .
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 0.71 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 139.7 MB.
-System memory in use after: 139.8 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1899.
-Total: 1.702900 ms (FindLiveObjects: 0.148200 ms CreateObjectMapping: 0.033800 ms MarkObjects: 1.363400 ms  DeleteObjects: 0.156400 ms)
+  Time since last request: 0.896297 seconds.
+  path: Assets/TimeSystem.cs
+  artifactKey: Guid(ce9271fc1746db44ba0265520e7ce230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TimeSystem.cs using Guid(ce9271fc1746db44ba0265520e7ce230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '386cb298b791f112f564f6e830438880') in 0.004857 seconds
+  Import took 0.006533 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000553 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.606 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1162 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 162.6 MB.
-System memory in use after: 162.6 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1902.
-Total: 1.615200 ms (FindLiveObjects: 0.149000 ms CreateObjectMapping: 0.036200 ms MarkObjects: 1.266600 ms  DeleteObjects: 0.162600 ms)
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 0.71 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 139.6 MB.
-System memory in use after: 139.7 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1902.
-Total: 1.602800 ms (FindLiveObjects: 0.152000 ms CreateObjectMapping: 0.041300 ms MarkObjects: 1.239000 ms  DeleteObjects: 0.169600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000547 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.593 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1162 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 162.6 MB.
-System memory in use after: 162.7 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1905.
-Total: 1.665800 ms (FindLiveObjects: 0.145500 ms CreateObjectMapping: 0.034600 ms MarkObjects: 1.315100 ms  DeleteObjects: 0.169700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000755 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.679 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1162 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 162.6 MB.
-System memory in use after: 162.7 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1908.
-Total: 1.692500 ms (FindLiveObjects: 0.174200 ms CreateObjectMapping: 0.062900 ms MarkObjects: 1.280200 ms  DeleteObjects: 0.174200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000729 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.713 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1162 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 162.6 MB.
-System memory in use after: 162.7 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1911.
-Total: 1.756400 ms (FindLiveObjects: 0.186100 ms CreateObjectMapping: 0.089600 ms MarkObjects: 1.299700 ms  DeleteObjects: 0.180200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000625 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.588 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1162 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 162.6 MB.
-System memory in use after: 162.7 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1914.
-Total: 1.461500 ms (FindLiveObjects: 0.130000 ms CreateObjectMapping: 0.031600 ms MarkObjects: 1.140700 ms  DeleteObjects: 0.158400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000759 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.659 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1162 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 162.6 MB.
-System memory in use after: 162.7 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1917.
-Total: 1.802000 ms (FindLiveObjects: 0.172200 ms CreateObjectMapping: 0.045000 ms MarkObjects: 1.354000 ms  DeleteObjects: 0.229800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000578 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.589 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1162 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 162.6 MB.
-System memory in use after: 162.7 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1920.
-Total: 1.526300 ms (FindLiveObjects: 0.168300 ms CreateObjectMapping: 0.033300 ms MarkObjects: 1.125500 ms  DeleteObjects: 0.198600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000579 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.596 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1162 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 162.7 MB.
-System memory in use after: 162.7 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1923.
-Total: 1.806700 ms (FindLiveObjects: 0.149500 ms CreateObjectMapping: 0.037700 ms MarkObjects: 1.431300 ms  DeleteObjects: 0.187100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000537 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.570 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1162 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 162.7 MB.
-System memory in use after: 162.7 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1926.
-Total: 1.638300 ms (FindLiveObjects: 0.214400 ms CreateObjectMapping: 0.034800 ms MarkObjects: 1.215800 ms  DeleteObjects: 0.172400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000633 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.592 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1162 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 162.7 MB.
-System memory in use after: 162.7 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1929.
-Total: 1.513800 ms (FindLiveObjects: 0.145200 ms CreateObjectMapping: 0.035700 ms MarkObjects: 1.167300 ms  DeleteObjects: 0.164900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000649 seconds.
+Registered in 0.000641 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
@@ -1435,40 +618,16 @@ Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1162 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 162.7 MB.
-System memory in use after: 162.7 MB.
+System memory in use before: 162.3 MB.
+System memory in use after: 162.4 MB.
 
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1932.
-Total: 1.643500 ms (FindLiveObjects: 0.158500 ms CreateObjectMapping: 0.038900 ms MarkObjects: 1.268100 ms  DeleteObjects: 0.177000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000542 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.568 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1162 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 162.7 MB.
-System memory in use after: 162.7 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1935.
-Total: 1.523600 ms (FindLiveObjects: 0.140000 ms CreateObjectMapping: 0.035000 ms MarkObjects: 1.180800 ms  DeleteObjects: 0.167200 ms)
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1776.
+Total: 1.529200 ms (FindLiveObjects: 0.157200 ms CreateObjectMapping: 0.028500 ms MarkObjects: 1.144700 ms  DeleteObjects: 0.198100 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000527 seconds.
+Registered in 0.000547 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
@@ -1478,21 +637,69 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.579 seconds
+- Completed reload, in  0.597 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1162 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 162.7 MB.
-System memory in use after: 162.7 MB.
+System memory in use before: 162.3 MB.
+System memory in use after: 162.4 MB.
 
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1938.
-Total: 1.446100 ms (FindLiveObjects: 0.140900 ms CreateObjectMapping: 0.033400 ms MarkObjects: 1.105000 ms  DeleteObjects: 0.166200 ms)
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1779.
+Total: 1.520100 ms (FindLiveObjects: 0.130700 ms CreateObjectMapping: 0.031300 ms MarkObjects: 1.194500 ms  DeleteObjects: 0.163000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 47.600695 seconds.
+  path: Assets/TechnoGami/Audiomanager.cs
+  artifactKey: Guid(933f69a8240e14b40bdcf0904416d9f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TechnoGami/Audiomanager.cs using Guid(933f69a8240e14b40bdcf0904416d9f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '594230d321110afbf08366732e2fa4d3') in 0.005826 seconds
+  Import took 0.007547 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025693 seconds.
+  path: Assets/TechnoGami/Audiomanager.cs
+  artifactKey: Guid(933f69a8240e14b40bdcf0904416d9f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TechnoGami/Audiomanager.cs using Guid(933f69a8240e14b40bdcf0904416d9f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '594230d321110afbf08366732e2fa4d3') in 0.001789 seconds
+  Import took 0.003919 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000555 seconds.
+Registered in 0.000611 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.598 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1162 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 162.4 MB.
+System memory in use after: 162.4 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1782.
+Total: 1.535800 ms (FindLiveObjects: 0.125500 ms CreateObjectMapping: 0.030100 ms MarkObjects: 1.217400 ms  DeleteObjects: 0.162000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.061550 seconds.
+  path: Assets/TechnoGami/ChickenController.cs
+  artifactKey: Guid(c8a3e7a2780c24348a70016e96e68d09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TechnoGami/ChickenController.cs using Guid(c8a3e7a2780c24348a70016e96e68d09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5de17b0542fe1faa2b9f6b382a19e4aa') in 0.005612 seconds
+  Import took 0.007184 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000611 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
@@ -1507,16 +714,24 @@ Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1162 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 162.9 MB.
-System memory in use after: 163.0 MB.
+System memory in use before: 162.4 MB.
+System memory in use after: 162.4 MB.
 
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1941.
-Total: 1.556700 ms (FindLiveObjects: 0.166500 ms CreateObjectMapping: 0.040100 ms MarkObjects: 1.205600 ms  DeleteObjects: 0.143800 ms)
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1785.
+Total: 1.570000 ms (FindLiveObjects: 0.145800 ms CreateObjectMapping: 0.038200 ms MarkObjects: 1.215300 ms  DeleteObjects: 0.169800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.809550 seconds.
+  path: Assets/Scripts/TimeMaster.cs
+  artifactKey: Guid(6bf778a757257094f94163e0dfa9f239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/TimeMaster.cs using Guid(6bf778a757257094f94163e0dfa9f239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26cd51fc98aeea63499bb2ea92a1ba5a') in 0.006778 seconds
+  Import took 0.008941 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000603 seconds.
+Registered in 0.000695 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
@@ -1526,117 +741,45 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.610 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1162 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 162.9 MB.
-System memory in use after: 163.0 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1944.
-Total: 1.994200 ms (FindLiveObjects: 0.228100 ms CreateObjectMapping: 0.075300 ms MarkObjects: 1.537100 ms  DeleteObjects: 0.152300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000535 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.602 seconds
+- Completed reload, in  0.593 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1162 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 162.9 MB.
-System memory in use after: 163.0 MB.
+System memory in use before: 162.4 MB.
+System memory in use after: 162.4 MB.
 
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1947.
-Total: 1.509200 ms (FindLiveObjects: 0.139000 ms CreateObjectMapping: 0.035400 ms MarkObjects: 1.209200 ms  DeleteObjects: 0.124800 ms)
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1788.
+Total: 1.489700 ms (FindLiveObjects: 0.128700 ms CreateObjectMapping: 0.031200 ms MarkObjects: 1.162100 ms  DeleteObjects: 0.167100 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000619 seconds.
+Registered in 0.000597 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.586 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1162 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 162.9 MB.
-System memory in use after: 163.0 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1950.
-Total: 1.683300 ms (FindLiveObjects: 0.157400 ms CreateObjectMapping: 0.037200 ms MarkObjects: 1.353500 ms  DeleteObjects: 0.134600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000614 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.573 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1162 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 162.9 MB.
-System memory in use after: 163.0 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1953.
-Total: 1.428800 ms (FindLiveObjects: 0.128300 ms CreateObjectMapping: 0.031400 ms MarkObjects: 1.144500 ms  DeleteObjects: 0.124000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000591 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.590 seconds
+- Completed reload, in  0.597 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1162 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 162.9 MB.
-System memory in use after: 163.0 MB.
+System memory in use before: 162.4 MB.
+System memory in use after: 162.5 MB.
 
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1956.
-Total: 1.609600 ms (FindLiveObjects: 0.147700 ms CreateObjectMapping: 0.036300 ms MarkObjects: 1.294500 ms  DeleteObjects: 0.130300 ms)
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1791.
+Total: 1.619300 ms (FindLiveObjects: 0.152900 ms CreateObjectMapping: 0.035200 ms MarkObjects: 1.253700 ms  DeleteObjects: 0.176500 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000652 seconds.
+Registered in 0.000620 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
@@ -1646,21 +789,21 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.592 seconds
+- Completed reload, in  0.597 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1162 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 162.9 MB.
-System memory in use after: 163.0 MB.
+System memory in use before: 162.4 MB.
+System memory in use after: 162.5 MB.
 
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1959.
-Total: 1.581200 ms (FindLiveObjects: 0.215400 ms CreateObjectMapping: 0.033700 ms MarkObjects: 1.194600 ms  DeleteObjects: 0.136600 ms)
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1794.
+Total: 1.530700 ms (FindLiveObjects: 0.134900 ms CreateObjectMapping: 0.034000 ms MarkObjects: 1.197700 ms  DeleteObjects: 0.162800 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000650 seconds.
+Registered in 0.000586 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
@@ -1670,21 +813,21 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.586 seconds
+- Completed reload, in  0.594 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1162 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 162.9 MB.
-System memory in use after: 163.0 MB.
+System memory in use before: 162.4 MB.
+System memory in use after: 162.5 MB.
 
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1962.
-Total: 1.511800 ms (FindLiveObjects: 0.145000 ms CreateObjectMapping: 0.035900 ms MarkObjects: 1.200000 ms  DeleteObjects: 0.130100 ms)
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1797.
+Total: 1.691400 ms (FindLiveObjects: 0.149700 ms CreateObjectMapping: 0.033600 ms MarkObjects: 1.329100 ms  DeleteObjects: 0.177700 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000524 seconds.
+Registered in 0.000576 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
@@ -1694,25 +837,14 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.572 seconds
+- Completed reload, in  0.595 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1162 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 163.0 MB.
-System memory in use after: 163.0 MB.
+System memory in use before: 162.4 MB.
+System memory in use after: 162.5 MB.
 
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1965.
-Total: 1.564300 ms (FindLiveObjects: 0.149600 ms CreateObjectMapping: 0.036500 ms MarkObjects: 1.243000 ms  DeleteObjects: 0.134400 ms)
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 0.67 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 140.0 MB.
-System memory in use after: 140.1 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1965.
-Total: 1.589500 ms (FindLiveObjects: 0.153400 ms CreateObjectMapping: 0.037300 ms MarkObjects: 1.260800 ms  DeleteObjects: 0.137200 ms)
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1800.
+Total: 1.506600 ms (FindLiveObjects: 0.120100 ms CreateObjectMapping: 0.028300 ms MarkObjects: 1.188300 ms  DeleteObjects: 0.169500 ms)
 
